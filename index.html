@@ -1,0 +1,4956 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><p><img src="_page_0_Picture_0.jpeg" alt=""></p>
+<h4 id="-unity-2022-lts-edition-e-book"><strong>UNITY 2022 LTS EDITION</strong> ⟶ E-BOOK</h4>
+<p><img src="_page_0_Picture_2.jpeg" alt=""></p>
+<h1 id="80-tips-to-increase-productivity-with-unity-2022-lts">80+ tips to increase productivity with Unity 2022 LTS</h1>
+<h3 id="-contents-"><strong>Contents</strong></h3>
+<table>
+<thead>
+<tr>
+<th>Introduction 5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Editor workflows 6</td>
+</tr>
+<tr>
+<td>The Package Manager 7</td>
+</tr>
+<tr>
+<td>Shortcuts Manager 8</td>
+</tr>
+<tr>
+<td>Focused Inspectors 10</td>
+</tr>
+<tr>
+<td>Presets 11</td>
+</tr>
+<tr>
+<td>Scene visibility 12</td>
+</tr>
+<tr>
+<td>Scene picking 14</td>
+</tr>
+<tr>
+<td>Searching 15</td>
+</tr>
+<tr>
+<td>Query Builder 17</td>
+</tr>
+<tr>
+<td>Inspector Debug Mode 18</td>
+</tr>
+<tr>
+<td>10 small workflow tips 19</td>
+</tr>
+<tr>
+<td>Artist workflows 24</td>
+</tr>
+<tr>
+<td>2D artist tips 25</td>
+</tr>
+<tr>
+<td>Pro 2D tips from the creators of Happy Harvest 32</td>
+</tr>
+<tr>
+<td>Prefab workflows 35</td>
+</tr>
+<tr>
+<td>Material Variants 37</td>
+</tr>
+<tr>
+<td>TextMeshPro 38</td>
+</tr>
+<tr>
+<td>Splines 39</td>
+</tr>
+<tr>
+<td>Snapping 40</td>
+</tr>
+<tr>
+<td>Animation workflow 42</td>
+</tr>
+<tr>
+<td>Optimization tip 44</td>
+</tr>
+<tr>
+<td>Custom gizmos and icons 45</td>
+</tr>
+<tr>
+<td>UI Toolkit 46</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Progressive Lightmapper 47</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light Probes 49</td>
+</tr>
+<tr>
+<td>Adaptive probe volumes 51</td>
+</tr>
+<tr>
+<td>Tips for the Universal Render Pipeline 52</td>
+</tr>
+<tr>
+<td>Tips for the High Definition Render Pipeline 58</td>
+</tr>
+<tr>
+<td>Developer workflows 63</td>
+</tr>
+<tr>
+<td>Attributes 63</td>
+</tr>
+<tr>
+<td>Custom windows and Inspectors 65</td>
+</tr>
+<tr>
+<td>Custom menus 66</td>
+</tr>
+<tr>
+<td>Enter Play Mode settings 66</td>
+</tr>
+<tr>
+<td>Enter Play Mode optimizations 67</td>
+</tr>
+<tr>
+<td>Script templates 67</td>
+</tr>
+<tr>
+<td>Addressables 69</td>
+</tr>
+<tr>
+<td>Preprocessor directives 72</td>
+</tr>
+<tr>
+<td>ScriptableObjects 73</td>
+</tr>
+<tr>
+<td>More resources 75</td>
+</tr>
+<tr>
+<td>Managing assemblies 76</td>
+</tr>
+<tr>
+<td>IDEs and Debugging 77</td>
+</tr>
+<tr>
+<td>Debugging 78</td>
+</tr>
+<tr>
+<td>Additional debugging tips 81</td>
+</tr>
+<tr>
+<td>Visual Studio shortcuts 83</td>
+</tr>
+<tr>
+<td>Device Simulator 83</td>
+</tr>
+<tr>
+<td>Console Log Entry 85</td>
+</tr>
+<tr>
+<td>Custom Compiler status 86</td>
+</tr>
+<tr>
+<td>More resources 86</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Team workflows 87</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unity Version Control 88</td>
+<td></td>
+</tr>
+<tr>
+<td>Migrating from Git 88</td>
+<td></td>
+</tr>
+<tr>
+<td>Unity Build Automation 90</td>
+<td></td>
+</tr>
+<tr>
+<td>Unity Accelerator 90</td>
+<td></td>
+</tr>
+<tr>
+<td>Unity Build Server 91</td>
+<td></td>
+</tr>
+<tr>
+<td>Resources for all Unity developers 92</td>
+<td></td>
+</tr>
+<tr>
+<td>Remove roadblocks with Unity Integrated Success 93</td>
+</tr>
+</tbody>
+</table>
+<h3 id="-span-id-page-4-0-span-introduction"><span id="page-4-0"></span>Introduction</h3>
+<p>This guide provides over 80 tips on how to work faster with Unity&#39;s programmer and artist toolsets. It covers many of the new features in Unity 2022 LTS along with plenty of time-saving steps and workflows that have been a part of Unity for years.</p>
+<p>When you work in Unity every day, each second or mouse click adds up. We want you to be able to waste less time and be more productive. Whether you&#39;re a new or experienced Unity developer, this guide can help you to speed up workflows in every stage of your game development.</p>
+<p>Go to the <a href="https://unity.com/releases/lts">Unity 2022 LTS site</a> or to the <a href="https://docs.unity3d.com/Manual/WhatsNew2022LTS.html">New in Unity 2022</a> section of Unity documentation to get the full story of its new features and capabilities.</p>
+<p>Many teams at Unity work to improve the quality of life for our creators, such as the <a href="https://unity.com/solutions/accelerate-solutions-games?">Accelerate Solutions team</a>, who contributed their valuable knowledge to this guide. The Accelerate Solutions team supports a plethora of Unity customers to help them get the most out of the engine. They identify, and help to optimize, critical points in projects for speed, stability, and efficiency.</p>
+<h3 id="-span-id-page-5-0-span-editor-workflows"><span id="page-5-0"></span>Editor workflows</h3>
+<p>Unity 2022 LTS includes multiple improvements that speed up Editor workflows, such as new search options to help you find things faster, granular capabilities for the Shortcut Manager, optimizations for large-scale projects, improvements to Play mode, more flexible layouts and advanced styling options in UI Toolkit, and much more.</p>
+<p>Collectively, these improvements can save you hours of work over days and weeks because you can iterate faster and develop more efficiently. Try out these tips and shortcuts to go faster in Unity.</p>
+<p>Here are some of the behind-the-scenes Editor improvements in Unity 2022 LTS:</p>
+<ul>
+<li>Improved package retrieval process when loading Editor window</li>
+<li>Less time to enter Play mode</li>
+<li>Less time taken by static batching when entering Play mode or making a build</li>
+<li>Improved performance of picking large objects in Scene view</li>
+<li>Improved performance of Scene view with many LODGroups selected</li>
+<li>Optimized prefab editing: 20% off the cost of changing a large prefab</li>
+<li>Editor workflow optimizations for large scale projects:<ul>
+<li>Faster hierarchy scrolling and picking of objects</li>
+<li>Optimized multi-selection of GameObjects</li>
+<li>Improved performance when you preview many textures</li>
+</ul>
+</li>
+<li><span id="page-6-0"></span>— Reduced hitches when you change to large prefabs</li>
+<li>Improved performance when creating a new asset (especially in a large project)</li>
+<li>Optimized StripPrefabObjectsWhichAreNotUsed: 28% speedup for large scenes</li>
+</ul>
+<h4 id="the-package-manager">The Package Manager</h4>
+<table>
+<thead>
+<tr>
+<th>Package Manager</th>
+<th></th>
+<th></th>
+<th></th>
+<th>: ■×</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+ + Packages: Unity Registry ▼ Sort: Name (asc) ▼ Filters ▼ Clear Filters</td>
+<td></td>
+<td></td>
+<td>: Q</td>
+<td></td>
+</tr>
+<tr>
+<td>All<br>Services</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>T Features</td>
+<td>4</td>
+<td>Mobile</td>
+<td></td>
+<td>Install</td>
+</tr>
+<tr>
+<td>2D<br>8<br>8 packages</td>
+<td></td>
+<td>Release</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3D Characters and Animation<br>08<br>4 packages</td>
+<td></td>
+<td>From Unity Registry by Unity Technologies Inc.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3D World Building<br>23<br>4 packages</td>
+<td></td>
+<td>com.unity.feature.mobile</td>
+<td></td>
+<td>[ QuickStart</td>
+</tr>
+<tr>
+<td>AR<br>00<br>5 packages</td>
+<td></td>
+<td>Description<br>Packages Included</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Cinematic Studio<br>0<br>6 packages</td>
+<td></td>
+<td>Optimize your apps for mobile devices and provide a performant experience<br>for your users. Includes utilities for debugging on device and support for<br>notifications.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Engineering<br>8<br>7 packages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Gameplay and Storytelling<br>20<br>3 packages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&amp; Mobile<br>3 packages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8 VR<br>2 packages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Packages</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2D Animation</td>
+<td>9.0.3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2D Aseprite Importer</td>
+<td>1.0.1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2D Pixel Perfect</td>
+<td>5.0.3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Last update Aug 31, 14:06</td>
+<td>C</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The updated Package Manager interface</p>
+<p>Updates to the <a href="https://docs.unity3d.com/2022.1/Documentation/Manual/upm-ui.html">Package Manager i</a>n Unity 2022 LTS help you save time while you import and organize your packages:</p>
+<ul>
+<li>Support for <a href="https://docs.unity3d.com/Manual/upm-ui-multi.html">multiple selection</a> in the Package Manager window; apply the same operation to multiple packages at once, rather than applying each operation individually</li>
+<li>Improvements to the workflow for <a href="https://docs.unity3d.com/Manual/upm-ui-import.html#complete-proj">importing complete projects from the</a>  <a href="https://docs.unity3d.com/Manual/upm-ui-import.html#complete-proj">Asset Store</a>; import complete projects into a temporary project where you can safely explore the content without impact to your main project</li>
+<li>Redesigned <a href="https://docs.unity3d.com/Manual/upm-ui-filter2.html">Filters</a> and <a href="https://docs.unity3d.com/Manual/upm-ui-sort.html">Sorting</a> controls in the Unity Registry, My Registries, In Project, and My Assets lists</li>
+<li>A Check for Updates option added to the Refresh list in the <a href="https://docs.unity3d.com/Manual/upm-ui.html">My Assets list</a>; use this option to check for updates to all packages on your computer, not just the ones that are visible in the My Assets list</li>
+<li>A new Update button to automatically update a Git package to the latest version</li>
+</ul>
+<h4 id="shortcuts-manager">Shortcuts Manager</h4>
+<p>The <a href="https://docs.unity3d.com/2022.3/Documentation/Manual/ShortcutsManager.html">Shortcuts Manager</a> is an interactive visual interface to help you manage Editor hotkeys. Here, you can assign shortcuts to different contexts and visualize existing bindings for any tools that you use frequently.</p>
+<p><span id="page-7-0"></span><img src="_page_7_Figure_2.jpeg" alt=""></p>
+<p>The Shortcuts Manager</p>
+<p>Bind any key or combination of keys, to a Unity Editor command. For example, the R key is bound by default to the Scale tool in the Tools context.</p>
+<p>The <strong>Binding Conflicts</strong> Category also identifies if you have a shortcut assigned to two commands that can be executed at the same time. Use the interface to resolve such conflicts. Note: You <em>can</em> assign the same shortcut to multiple commands if they are in different contexts and cannot execute at the same time.</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Command</th>
+<th>Shortcut</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All Unity Commands</td>
+<td>HDRP/Decal: Handle swap between cropping and stretching UV</td>
+<td>36W</td>
+<td>A  .</td>
+</tr>
+<tr>
+<td>Binding Conflicts</td>
+<td>Main Menu/File/Close</td>
+<td>36 W</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Main Menu</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Identify Binding Conflicts between shortcuts</p>
+<p>Access the Shortcuts Manager from Unity&#39;s main menu:</p>
+<ul>
+<li>On Windows and <strong>Linux</strong>, select <strong>Edit &gt; Shortcuts</strong>.</li>
+<li>On macOS, select <strong>Unity &gt; Shortcuts</strong>.</li>
+</ul>
+<p>Use the provided API in the <a href="https://docs.unity3d.com/2019.1/Documentation/ScriptReference/ShortcutManagement.ActiveProfileChangedEventArgs.html?">UnityEditor.ShortcutManagement</a> namespace to define custom shortcuts in your own scripts and packages.</p>
+<h4 id="common-shortcuts">Common Shortcuts</h4>
+<p>Here are some common default shortcuts:</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Windows</th>
+<th>Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frame Selected</td>
+<td>F</td>
+<td>F</td>
+</tr>
+<tr>
+<td>Duplicate Items</td>
+<td>Ctrl + D</td>
+<td>Cmd + D</td>
+</tr>
+<tr>
+<td>Delete GameObject</td>
+<td>Shift + Del</td>
+<td>Cmd + Delete</td>
+</tr>
+<tr>
+<td>View/Move/Rotate/Rect/<br>Transform</td>
+<td>Q/W/E/R/T</td>
+<td>Q/W/E/R/T</td>
+</tr>
+<tr>
+<td>Toggle Pivot Mode</td>
+<td>Z</td>
+<td>Z</td>
+</tr>
+<tr>
+<td>Toggle Pivot Rotation</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr>
+<td>Vertex Snap</td>
+<td>V</td>
+<td>V</td>
+</tr>
+<tr>
+<td>Snap</td>
+<td>Ctrl + LMB</td>
+<td>Cmd + LMB</td>
+</tr>
+<tr>
+<td>Toggle Maximize</td>
+<td>Shift + spacebar</td>
+<td>Shift + spacebar</td>
+</tr>
+<tr>
+<td>Edit Prefab in Context</td>
+<td>P</td>
+<td>P</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>View</td>
+<td>Q</td>
+</tr>
+<tr>
+<td>Move</td>
+<td>W</td>
+</tr>
+<tr>
+<td>Rotate</td>
+<td>E</td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>R</td>
+</tr>
+<tr>
+<td>Rect</td>
+<td>T</td>
+</tr>
+<tr>
+<td>Transform</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Toggle Pivot Position</td>
+<td>Z</td>
+</tr>
+<tr>
+<td>Toggle Pivot Orientation</td>
+<td>×</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Common Editor shortcuts</p>
+<h4 id="-span-id-page-9-0-span-focused-inspectors"><span id="page-9-0"></span>Focused Inspectors</h4>
+<p>The <a href="https://docs.unity3d.com/2022.3/Documentation/Manual/InspectorFocused.html">Focused Inspector window</a> allows you to inspect the properties for a specific GameObject, component, or asset. It always displays the properties of the item you opened it for, even if you select something else in the Scene.</p>
+<p>Right-click on a GameObject or Component, and choose <strong>Properties</strong>. This reveals a floating Inspector window that you can reposition, dock, or resize like any other window.</p>
+<p><img src="_page_9_Picture_3.jpeg" alt=""></p>
+<p>A Focused Inspector comparing two GameObjects</p>
+<table>
+<thead>
+<tr>
+<th>Reset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Move to Front</td>
+</tr>
+<tr>
+<td>Move to Back</td>
+</tr>
+<tr>
+<td>Copy Component</td>
+</tr>
+<tr>
+<td>Paste Component As New</td>
+</tr>
+<tr>
+<td>Paste Component Values</td>
+</tr>
+<tr>
+<td>Find References In Scene</td>
+</tr>
+<tr>
+<td>Properties</td>
+</tr>
+<tr>
+<td>Reset Position</td>
+</tr>
+<tr>
+<td>Reset Rotation</td>
+</tr>
+<tr>
+<td>Reset Scale</td>
+</tr>
+<tr>
+<td>Copy Position</td>
+</tr>
+<tr>
+<td>Paste Position</td>
+</tr>
+<tr>
+<td>Copy Rotation</td>
+</tr>
+<tr>
+<td>Paste Rotation</td>
+</tr>
+<tr>
+<td>Copy Scale</td>
+</tr>
+<tr>
+<td>Paste Scale</td>
+</tr>
+<tr>
+<td>Copy World Placement</td>
+</tr>
+<tr>
+<td>Paste World Placement</td>
+</tr>
+</tbody>
+</table>
+<p>Opening multiple Focused Inspectors at the same time allows you to reference multiple GameObjects while making changes to the Scene.</p>
+<p>You can also focus on a specific Component of a GameObject, requiring less screen space.</p>
+<h4 id="-span-id-page-10-0-span-presets"><span id="page-10-0"></span>Presets</h4>
+<p>Presets enable you to customize the default state of anything in your Inspector. Creating a <a href="https://docs.unity3d.com/2022.3/Documentation/Manual/Presets.html?">Preset</a> lets you copy the settings of a component or asset, save it as an asset, then apply the same settings to another item later.</p>
+<p>Use Presets to enforce standards or to apply reasonable defaults to new assets. This ensures consistent standards across your team, so commonly overlooked settings don&#39;t impact your project&#39;s performance.</p>
+<table>
+<thead>
+<tr>
+<th>00<br>Transform</th>
+<th></th>
+<th></th>
+<th></th>
+<th>� 花</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Position</td>
+<td>X 0</td>
+<td>Y O</td>
+<td>Z O</td>
+<td></td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>X 0</td>
+<td>Y O</td>
+<td>Z 0</td>
+<td></td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>× 1</td>
+<td>Y 1</td>
+<td>Z 1</td>
+</tr>
+</tbody>
+</table>
+<p>The Preset icon is highlighted here in red.</p>
+<p>Click the Preset icon to the top right of the component. Click <strong>Save current to…</strong> to save the Preset as an asset. Click one of the available Presets to load a set of values.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>@ Inspector</th>
+<th></th>
+<th>a :</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Select Preset</td>
+<td></td>
+<td>Wood_tiled_01_a (Texture 2D) Import Settings</td>
+<td></td>
+<td>8 花 :</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Open</td>
+</tr>
+<tr>
+<td>Q</td>
+<td></td>
+<td>Texture Type</td>
+<td>Default</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Texture Shape</td>
+<td>2D</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>sRGB (Color Texture)</td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Alpha Source</td>
+<td>Input Texture Alpha</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Alpha Is Transparency<br>Ignore PNG file gamma</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>Advanced</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Wrap Mode</td>
+<td>Repeat</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Filter Mode</td>
+<td>Trilinear</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Aniso Level</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Default</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Override For PC, Mac &amp; Linux Standalone</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>None</td>
+<td>AlbedoTexture_D</td>
+<td>Max Size</td>
+<td>4098</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Resize Algorithm</td>
+<td>Mitchell</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wood_tilled_01_a</td>
+<td>RGB R G B C -</td>
+<td>6 %</td>
+</tr>
+<tr>
+<td>1<br>1</td>
+<td>1</td>
+<td></td>
+<td>2048x2048 RGB Compressed DXn sRGB 2.7 MB</td>
+<td></td>
+</tr>
+<tr>
+<td>NormalTexture</td>
+<td>Utility Texture</td>
+<td></td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>AssetBundle<br>None</td>
+<td></td>
+<td>None<br>a :</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Project<br>+ ▼<br>ರ</td>
+<td></td>
+<td>@ @ \$15</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wood_d</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wood_n<br>wood_tiled_01_a</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Save current to</td>
+<td></td>
+<td>wood_tilled_01_n<br>wood_tiled_02_a</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>wood_tiled_02_n<br>wood tilad 02 a</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In this example, the Presets contain different Import Settings for 2D textures depending on usage (albedo, normal, or utility).</p>
+<p><span id="page-11-0"></span>Other handy ways to use Presets:</p>
+<ul>
+<li><strong>Create a GameObject with defaults:</strong> Drag and drop a Preset asset into the Hierarchy in order to create a new GameObject with the corresponding component filled in with Preset values.</li>
+<li><strong>Associate a specific Type with a Preset:</strong> In the <strong>Preset Manager</strong> (<strong>Project Settings &gt; Preset Manager</strong>), specify one or more Presets per Type. Creating a new component will then default to the specified Preset values.<ul>
+<li>Pro tip: Create multiple Presets per Type, and rely on the Filter to associate the correct Preset by name.</li>
+</ul>
+</li>
+<li><strong>Save and load manager settings:</strong> Use Presets for a Manager window, so the settings can be reused; for example, if you plan to reapply the same Tags and Layers or Physics settings, Presets can reduce set up time for your next project.</li>
+</ul>
+<h4 id="scene-visibility">Scene visibility</h4>
+<p>As your Scene grows larger, you can temporarily hide specific objects so that you can select and edit your GameObjects with more ease.</p>
+<p>Instead of deactivating the GameObjects (which can lead to unintended behavior), toggle the SceneVisibility controls. This allows you to hide and show objects in the Scene view, without changing their in-game visibility.</p>
+<p>Use the toolbar in the <strong>Hierarchy</strong> window to enable or disable the Scene visibility for GameObjects in the viewport.</p>
+<p><img src="_page_11_Picture_9.jpeg" alt=""></p>
+<p>Hide objects in the Scene view using SceneVisibility controls.</p>
+<p>Note that the status icons may change in the Hierarchy, depending on whether parent or child objects become hidden.</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>The GameObject is visible, but some of its children are hidden.</td>
+</tr>
+<tr>
+<td></td>
+<td>The GameObject is hidden, but some of its children are visible.</td>
+</tr>
+<tr>
+<td></td>
+<td>The GameObject and its children are visible, but they only appear<br>when you hover over the GameObject.</td>
+</tr>
+<tr>
+<td></td>
+<td>The GameObject and its children are hidden.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="_page_12_Picture_2.jpeg" alt=""></p>
+<p>Toggle the Scene view control bar on or off to override the global Scene visibility.</p>
+<p>Use <strong>Isolation View</strong> to concentrate on a specific object and its children. Select the GameObject in the Hierarchy window and press <strong>Shift + H</strong> to toggle it on and off. This overrides your other Scene visibility settings until you exit.</p>
+<p><img src="_page_12_Picture_5.jpeg" alt=""></p>
+<p>Isolation View allows you to edit a GameObject without distractions.</p>
+<p>Remember that you can always use the <strong>Shift + spacebar</strong> shortcut to maximize the viewport and hide the rest of the Editor as well.</p>
+<h4 id="-span-id-page-13-0-span-scene-picking"><span id="page-13-0"></span>Scene picking</h4>
+<p>You can modify the pickability state of GameObjects, similar to Scene visibility. Use the toolbar to block specific GameObjects from being selected in the Scene view. This is useful to avoid selecting and editing an unintended GameObject in large scenes.</p>
+<p><img src="_page_13_Figure_2.jpeg" alt=""></p>
+<p>Because you can toggle pickability for a whole branch or a single object, some GameObjects may be pickable but have children or parents that are not. The following icons differentiate their status.</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>You can pick the GameObject, but you cannot pick some of its<br>children.</td>
+</tr>
+<tr>
+<td></td>
+<td>You cannot pick the GameObject, but you can pick some of its<br>children.</td>
+</tr>
+<tr>
+<td></td>
+<td>You can pick the GameObject and its children (only appears when<br>you hover over the GameObject).</td>
+</tr>
+<tr>
+<td></td>
+<td>You cannot pick the GameObject or its children.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="-span-id-page-14-0-span-searching"><span id="page-14-0"></span>Searching</h4>
+<p>Search functionality in the Editor has improved in the recent LTS releases, and in 2022 LTS, there are several ways for you to search efficiently in Unity. Besides the search functionality in the Hierarchy and Project views, you can also use the search button icon in the main menu bar or use the Ctrl + K shortcut.</p>
+<p><img src="_page_14_Picture_2.jpeg" alt=""></p>
+<p>This opens a search window where it&#39;s easy to filter your search. The top section of the Landing page allows you to select a search area (search provider) for your search. Clicking on a search area block will filter out the queries and recent searches below. Double-clicking on a search area block will insert the filter token of this area in the search field to help you narrow down your search.</p>
+<p><img src="_page_14_Picture_4.jpeg" alt=""></p>
+<p>The updated Search window</p>
+<p><img src="_page_15_Picture_0.jpeg" alt=""></p>
+<p>The Search window with queries</p>
+<p>The middle section shows a list of queries available for the currently selected search area. You can click on any query to execute it. The queries are either SearchTemplates, queries generated dynamically for a given search area when the [SearchTemplate] attribute is used in code, or they can be normal SearchQuery that have been tagged with the Scene Template attribute.</p>
+<p>When searching for names, you can also search by type. Use the dropdown to select <strong>Type</strong> or the <strong>t:</strong> shorthand syntax, e.g., t:scene (to search all scenes) or t:texture (to search all textures).</p>
+<table>
+<thead>
+<tr>
+<th>0 : 0x<br>Q, Search (20)</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>网</td>
+<td>0</td>
+<td>settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Press Tab = to filter × 僧· 0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>All 20</td>
+<td>Project 1</td>
+<td>Hierarchy 0</td>
+<td>Menus 8</td>
+<td>Settings 11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P</td>
+<td></td>
+<td>Lighting Settings<br>Assets/Create/Lighting Settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IP</td>
+<td></td>
+<td>URP Global Settings Asset<br>Assets/Create/Rendering/URP Global Settings Asset</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>=</td>
+<td></td>
+<td>Panel Settings Asset<br>Assets/Create/Ull Toolkit/Panel Settings Asset</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>III</td>
+<td></td>
+<td>Text Settings<br>Assets/Create/Ul Toolkit/Text Settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>IR</td>
+<td></td>
+<td>Project Settings<br>Edit/Project Settings.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td>Build Settings<br>File/Build Settings  (Ctrl+Shift+B)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>GI Cache<br>Preferences/GI Cache</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Search<br>Preferences/Search</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Timeline<br>Preferences/Timeline</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Burst AOT Settings<br>Project/Burst AOT Settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Search functionality includes support for searching settings and menus.</p>
+<p>Additionally, the Search window lets you visualize objects in various ways: Compact list view, big list view or multiple sizes of grid icons. You can also display objects in a table.</p>
+<p><span id="page-16-0"></span><img src="_page_16_Figure_0.jpeg" alt=""></p>
+<p>The Search window with queries</p>
+<p>This is practical if you want to sort items by names (or description) and especially for extracting properties from <a href="https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Search.SearchItem.html">SearchItems</a> using a <a href="https://github.com/Unity-Technologies/com.unity.search.extensions/wiki/Blog-Search-21.2#search-expressions">Search Expression</a>  and creating a column layout. Additionally, when saving a <a href="https://github.com/Unity-Technologies/com.unity.search.extensions/wiki/Blog-Search-21.2#saving-queries">Search Queries</a> Unity persists all the Search view state, including any column specification. This allows you to create your own &quot;Data Explorer&quot; that is useful to compare multiple property values against one another.</p>
+<h4 id="query-builder">Query Builder</h4>
+<p>You can type a few characters in the Search window to find objects quickly. But complicated and precise queries are also possible with the rich capabilities of the Search language syntax. However, it can be challenging to remember which filters are available for a specific search area provider or what is the name of a property of a specific type so you can compare it against a threshold value.</p>
+<p>The new Query Builder workflow should help you craft complicated queries and explore your project.</p>
+<p><img src="_page_16_Figure_6.jpeg" alt=""></p>
+<p>The Query Builder</p>
+<p><span id="page-17-0"></span>The Query builder can be activated with the builder toggle (see puzzle button next to the Search Field). Notice how the builder workflow plays well with the new Search Landing page.</p>
+<h4 id="inspector-debug-mode">Inspector Debug Mode</h4>
+<p>You can toggle each GameObject&#39;s Inspector between Normal and Debug mode. Click the <strong>More Items</strong> ( ⁝ ) button to open the context menu and choose the desired mode.</p>
+<p>Debug Mode only shows the selected component&#39;s properties and their values. It also displays private variables, although you cannot edit them.</p>
+<table>
+<thead>
+<tr>
+<th>Inspector</th>
+<th>B</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt;</td>
+<td>GameObject</td>
+<td></td>
+<td></td>
+<td>Stati</td>
+<td>Lock</td>
+</tr>
+<tr>
+<td>Tag Untagged</td>
+<td>&gt;</td>
+<td>Layer Default</td>
+<td></td>
+<td></td>
+<td>V Normal</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Debug</td>
+</tr>
+<tr>
+<td>1<br>Transform<br>?<br>-1<br>&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Position</td>
+<td>X 0</td>
+<td>Y O</td>
+<td>Z<br>0</td>
+<td></td>
+<td>Expand All Components<br>Collapse All Components</td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>X 0</td>
+<td>Y O</td>
+<td>Z<br>O</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>X 1</td>
+<td>Y 1</td>
+<td>Z</td>
+<td></td>
+<td>Ping</td>
+</tr>
+</tbody>
+</table>
+<p>Inspector Debug mode</p>
+<h4 id="-span-id-page-18-0-span-10-small-workflow-tips"><span id="page-18-0"></span>10 small workflow tips</h4>
+<p>These 10 small but powerful enhancements will help you further speed things up in the Editor.</p>
+<ol>
+<li>Cut and paste GameObjects in the Hierarchy window. You can also <strong>Paste As Child</strong> from the context menu.</li>
+</ol>
+<p><img src="_page_18_Picture_3.jpeg" alt=""></p>
+<p>Paste As Child</p>
+<ul>
+<li><ol>
+<li>Use the <strong>F</strong> shortcut to frame the selected object in Scene View. This now handles more object types and does a better job of framing them. In Play Mode, press <strong>Shift + F</strong> to lock onto a selected GameObject that is moving.</li>
+</ol>
+</li>
+<li><ol>
+<li>Display UVs, normals, tangents, and other Mesh information in the Inspector preview.</li>
+</ol>
+</li>
+</ul>
+<p><img src="_page_18_Picture_7.jpeg" alt=""></p>
+<p>The Inspector preview</p>
+<ol>
+<li>See improved Inspector previews for 3D textures, such as volumetric render, 3D texture slices, or a signed distance field.</li>
+</ol>
+<p><img src="_page_19_Picture_1.jpeg" alt=""></p>
+<p>A volumetric render</p>
+<ol>
+<li>Use the Layers menu to toggle off the visibility of any Layers (such as UI) that may obscure your Scene view. Lock a Layer to avoid changing its state accidentally.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Layers</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Everything</td>
+<td>O</td>
+</tr>
+<tr>
+<td>Nothing</td>
+<td>D</td>
+</tr>
+<tr>
+<td>0: Default</td>
+<td>B<br>O</td>
+</tr>
+<tr>
+<td>1: TransparentFX</td>
+<td>B<br>0</td>
+</tr>
+<tr>
+<td>2: Ignore Raycast</td>
+<td>B<br>0</td>
+</tr>
+<tr>
+<td>4: Water</td>
+<td>a<br>6</td>
+</tr>
+<tr>
+<td>5: Ul</td>
+<td>a<br>0</td>
+</tr>
+<tr>
+<td>8: PostProcessing</td>
+<td>3<br>O</td>
+</tr>
+<tr>
+<td>9: Not in Reflection</td>
+<td>B<br>0</td>
+</tr>
+<tr>
+<td>Edit Layers</td>
+</tr>
+</tbody>
+</table>
+<p>Toggle and edit Layers</p>
+<ol>
+<li>If you frequently select the same objects in your scene, use the hotkey combos under <strong>Edit &gt; Selection</strong> to quickly save or load a selection set.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>151<br>Selection<br>Load Selection 1<br>个器1<br>D<br>Load Selection 2<br>个第2<br>Project Settings<br>个第3<br>Load Selection 3<br>Load Selection 4<br>个第4<br>Clear All PlayerPrefs<br>Load Selection 5<br>个第5<br>Render Pipeline<br>Load Selection 6<br>1 %6<br>Load Selection 7<br>心器7<br>Graphics Tier<br>Load Selection 8<br>0 %8<br>Load Selection 9<br>0 % 9<br>Grid and Snap Settings<br>Load Selection 0<br>Save Selection 1<br>Save Selection 2<br>Save Selection 3<br>Save Selection 4<br>Save Selection 5<br>Save Selection 6<br>Save Selection 7<br>Save Selection 8</th>
+<th>Sign in<br>Sign out</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>个第0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7 % 1</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>1. #2</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>1. #3</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7882</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7-85</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7-86</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>787</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>1. #8</td>
+<td></td>
+</tr>
+<tr>
+<td>Save Selection 9</td>
+<td></td>
+<td>6881</td>
+<td></td>
+</tr>
+<tr>
+<td>Save Selection 0</td>
+<td></td>
+<td>7-80</td>
+</tr>
+</tbody>
+</table>
+<p>Load and Save Selections</p>
+<ol>
+<li>Modify the <strong>Numbering Scheme</strong> for duplicate objects in <strong>Project Settings &gt; Editor</strong>.</li>
+</ol>
+<p>Define options for the naming here as well as the padding and spacing of the instance number.</p>
+<p><img src="_page_20_Figure_5.jpeg" alt=""></p>
+<p>Numbering Scheme</p>
+<ol>
+<li>Use the <strong>EditorOnly</strong> tag to designate GameObjects that will not appear in a build of the application.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Untagged<br>&gt;</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Respawn</td>
+<td></td>
+</tr>
+<tr>
+<td>Finish</td>
+<td></td>
+</tr>
+<tr>
+<td>EditorOnly</td>
+<td></td>
+</tr>
+<tr>
+<td>MainCamera</td>
+<td></td>
+</tr>
+<tr>
+<td>Player</td>
+<td></td>
+</tr>
+<tr>
+<td>GameController</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Add Tag</td>
+</tr>
+</tbody>
+</table>
+<p>EditorOnly</p>
+<ol>
+<li>Change colors in the Editor via <strong>Unity &gt; Preferences &gt; Colors</strong> to find certain UI elements or objects more quickly in Editor. Adjust the Playmode tint to remind yourself when Play Mode is active, so you don&#39;t lose any changes you intended to save on exit.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>Preferences</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Preferences</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Q</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>General<br>2D</td>
+<td>Colors</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>▼ Analysis<br>Profiler<br>Cache Server (global)<br>Colors</td>
+<td>Animation</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Property Animated</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Property Candidate</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Core Render Pipeline</td>
+<td>Property Recorded</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>External Tools</td>
+<td>General</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>GI Cache</td>
+<td>Playmode tint</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Scene View<br>Search Service<br>Shader Graph<br>Timeline</td>
+<td>Scene</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Background</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Background for Prefabs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Center Axis</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<p><img src="_page_21_Picture_2.jpeg" alt=""></p>
+<p>Playmode tint</p>
+<p>In the event that you make a change in Play Mode that you want to keep, use the <strong>More Items</strong> ( ⁝ ) button. Copy the component or transform values while playing, then paste from the clipboard upon exiting Play Mode. Alternatively, if you have multiple component changes, drag out a temporary Prefab to save your work there.</p>
+<ol>
+<li>When you set up cameras, use <strong>GameObject &gt; Align With View</strong> to line up your Game camera with the Scene camera. Or, if you&#39;re matching the other way around, use <strong>Align View to Selected</strong> to align the Scene camera with another camera in the Hierarchy.</li>
+</ol>
+<p><img src="_page_22_Figure_1.jpeg" alt=""></p>
+<p>Align With View</p>
+<h4 id="-more-resources-"><strong>More resources</strong></h4>
+<ul>
+<li><a href="https://blog.unity.com/engine-platform/advanced-editor-scripting-hacks-to-save-you-time-part-1">Advanced Editor scripting hacks to save you time: Part I</a></li>
+<li><a href="https://blog.unity.com/engine-platform/advanced-editor-scripting-hacks-to-save-you-time-part-2">Advanced Editor scripting hacks to save you time: Part II</a></li>
+<li><a href="https://blog.unity.com/engine-platform/speed-up-your-productivity-with-the-unity-hub">Speed up your productivity with the Unity Hub</a></li>
+</ul>
+<h2 id="-span-id-page-23-0-span-artist-workflows"><span id="page-23-0"></span>Artist workflows</h2>
+<p>There are many ways that 2D and 3D artists, animators, and level designers can save time in Unity and work more efficiently with in-context iteration. In Unity 2022 LTS specifically, there are smoother workflows for customizing the Editor with UI Toolkit, advanced new options for visual quality and performance with HDRP and URP, improvements to 2D tools, and more. See the <a href="https://unity.com/releases/editor/whats-new/2022.1.0">Unity 2022</a>  <a href="https://unity.com/releases/editor/whats-new/2022.1.0">release notes</a> for a comprehensive list of new features, improvements, and fixes.</p>
+<p><img src="_page_23_Picture_2.jpeg" alt=""></p>
+<p>The 2D art for Happy Harvest</p>
+<p><span id="page-24-0"></span><img src="_page_24_Picture_0.jpeg" alt=""></p>
+<p><em>Happy Harvest</em>, <a href="https://assetstore.unity.com/packages/essentials/tutorial-projects/happy-harvest-2d-sample-project-259218">now available</a> on the Unity Asset Store, harnesses the latest capabilities for creating 2D lights, shadows, and special effects with URP in <a href="https://blog.unity.com/engine-platform/unity-2022-lts-is-coming-in-june">Unity 2022 LTS</a>.</p>
+<h4 id="2d-artist-tips">2D artist tips</h4>
+<p>Many of the 2D tips and improvements outlined here are used in <a href="https://assetstore.unity.com/packages/essentials/tutorial-projects/happy-harvest-2d-sample-project-259218">Happy Harvest,</a> a demo of a 2D top-down farming simulation game that shows what&#39;s possible with 2D lights, shadow effects, skeletal animation, sprite libraries, visual effects, and more in Unity 2022 LTS.</p>
+<p>A series of in-depth articles are available to read alongside the demo. These articles explain how to create the 2D visuals in <em>Happy Harvest</em> so you can add them to your own projects:</p>
+<ul>
+<li><ol>
+<li><a href="https://unity.com/how-to/2d-light-shadow-techniques-in-the-universal-render-pipeline">2D light and shadow techniques in the Universal Render Pipeline</a></li>
+</ol>
+</li>
+<li><ol>
+<li><a href="https://unity.com/how-to/2d-characters-and-animation-unity-2022-lts">How to animate 2D characters in Unity 2022 LTS</a></li>
+</ol>
+</li>
+<li><ol>
+<li><a href="https://unity.com/how-to/create-art-and-gameplay-2d-tilemaps-unity">How to create art and gameplay with 2D tilemaps</a></li>
+</ol>
+</li>
+<li><ol>
+<li><a href="https://unity.com/how-to/2d-special-effects-vfx-graph-shader-graph">2D special effects with the VFX Graph and Shader Graph</a></li>
+</ol>
+</li>
+</ul>
+<p>Finally, you can explore many more 2D art and optimization techniques in the e-book <em><a href="https://unity.com/resources/2d-game-art-animation-lighting-for-artists-ebook?isGated=false">2D game art, animation, and lighting for artists</a>.</em></p>
+<ol>
+<li>A 2D project uses Sprites to create its visuals. These potentially contain many Texture assets and may thus require many draw calls. To optimize resources, use a <strong>Sprite Atlas</strong> (<strong>Asset &gt; Create &gt; Sprite Atlas</strong>) rather than rendering individual Sprites and Textures.</li>
+</ol>
+<p><a href="https://docs.unity3d.com/Manual/SpriteAtlasV2.html">Sprite Atlas V2</a> is out of preview in Unity 2022 LTS, fully working in the Editor, allowing users to experience the benefits of atlassing sprites without entering Play mode or making a build. It also supports <a href="https://docs.unity3d.com/Manual/UnityAccelerator.html">Unity Accelerator</a>, and, as of 2021.2, it provides full support for folders as packable objects. Sprite Atlas V2 uses the functionalities exposed by <a href="https://docs.unity3d.com/2022.3/Documentation/Manual/AssetDatabase.html">AssetDatabase V2</a> (ADBV2), such as <a href="https://docs.unity3d.com/Manual/UnityAccelerator.html">Cache Server</a> support.</p>
+<p><img src="_page_25_Figure_2.jpeg" alt=""></p>
+<p>A Sprite Atlas packs several Sprites into a single combined Texture.</p>
+<p>Add Sprites into the <a href="https://docs.unity3d.com/Manual/SpriteAtlasWorkflow.html#objectlist?">Objects for Packing list,</a> and enable <a href="https://docs.unity3d.com/Manual/SpriteAtlasWorkflow.html#inclbuild?">include in build</a> to include your Sprites with the project. Use the <a href="https://docs.unity3d.com/Manual/SpriteAtlasWorkflow.html#Optimized?">Packing options</a> to determine how closely the Sprites can be laid out in the atlas and whether they can be rotated. Once the Textures are consolidated, Unity can issue a single draw call to access the packed Textures with a smaller performance overhead.</p>
+<p><img src="_page_25_Picture_5.jpeg" alt=""></p>
+<p>In Unity&#39;s UI system, atlasing and the GameObject structure matter for batching.</p>
+<ol>
+<li>A SpriteAtlas can reduce draw calls if you organize the UI layout correctly. Unity scans the GameObjects&#39; Hierarchy top to bottom in order to batch objects that use the same texture and material. See our guide on <a href="https://unity.com/how-to/unity-ui-optimization-tips">Unity UI</a>  <a href="https://unity.com/how-to/unity-ui-optimization-tips">optimization</a> tips for more best practices.</li>
+</ol>
+<p>The <a href="https://docs.unity3d.com/ScriptReference/U2D.SpriteAtlas.html?">SpriteAtlas AP</a>I provides additional control at runtime. You can also create a <a href="https://docs.unity3d.com/Manual/VariantSpriteAtlas.html?">Variant Sprite Atlas</a> or prepare the Sprite Atlases for an <a href="https://docs.unity3d.com/Manual/SpriteAtlasDistribution.html?">alternate</a>  <a href="https://docs.unity3d.com/Manual/SpriteAtlasDistribution.html?">form of distribution</a> with <a href="https://docs.unity3d.com/Manual/LateBinding.html?">Late Binding i</a>n a script.</p>
+<ol>
+<li>Th<a href="https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@5.0/manual/index.html">e 2D Pixel Perfect Package</a> contains a Pixel Perfect Camera that ensures your pixel art remains crisp and clear at different resolutions, so you can avoid manual scaling of your art assets.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>▼ 9 Pixel Perfect Camera</th>
+<th></th>
+<th></th>
+<th></th>
+<th>8 花 :</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>URP Pixel Perfect Camera requires a camera<br>using a 2D Renderer. Some features, such<br>as Upscale Render Texture, are not<br>supported with other Renderers.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Assets Pixels Per Un 100</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Reference Resolutio X 320</td>
+<td></td>
+<td></td>
+<td>Y 180</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Crop Frame</td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td>V</td>
+</tr>
+<tr>
+<td>Grid Snapping</td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td>V</td>
+</tr>
+<tr>
+<td>Current Pixel Ratio</td>
+<td>1:1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Pixel Perfect Camera</p>
+<p>Read how SouthPAW Games created their first pixel art game using Unity&#39;s 2D tools in <strong><a href="https://blog.unity.com/games/2d-pixel-perfect-for-a-crisp-conquest-in-skul-the-hero-slayer">2D Pixel Perfect for a crisp conquest in</a></strong> <em>Skul: The Hero Slayer**</em>.**</p>
+<p><img src="_page_26_Picture_5.jpeg" alt=""></p>
+<p>The 2D Pixel Perfect Camera</p>
+<ol>
+<li>Use the <a href="https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@8.0/manual/index.html">PSD Importer Package</a> if you want to work with Photoshop file assets, both .PSD and .PSB files. Skip exporting separate sprites, and import a <strong>.PSD</strong> or <strong>.PSB</strong> file. This allows you to import multiple sprites from the various layers and generate a Sprite Sheet or 2D Character Rig. See <a href="https://blog.unity.com/engine-platform/how-to-speed-up-2d-art-workflows-with-2d-psd-importer">this guide</a> on speeding up your 2D workflows with the PSD Importer.</li>
+</ol>
+<p>In Unity 2022 LTS, you can control which layers to import from a Photoshop file by selecting them from a tab in the PSD Importer Inspector. You can also set padding between sprites in mosaic mode.</p>
+<p><img src="_page_27_Picture_0.jpeg" alt=""></p>
+<p>The 2D PSD Importer is available in the Package Manager.</p>
+<ol>
+<li>Use <a href="https://docs.unity3d.com/2022.3/Documentation/Manual/class-Tilemap.html?">Tilemaps</a> to create large grid-based worlds, including hexagonal and isometric versions, optimized for size and performance. Get more tips from <a href="https://unity.com/how-to/create-art-and-gameplay-2d-tilemaps-unity">How to create art and gameplay with 2D tilemaps.</a></li>
+</ol>
+<p><img src="_page_27_Picture_3.jpeg" alt=""></p>
+<p>Tilemaps can describe isometric or other grid-like environments.</p>
+<p><img src="_page_27_Picture_5.jpeg" alt=""></p>
+<p>Setting up rule tiles in <em>Happy Harvest</em></p>
+<ol>
+<li>Create smooth <a href="https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/index.html">2D skeletal animation</a> with rigging, tessellation, and bone creation. 2D Inverse Kinematics (IK) simplifies animation, calculating how your 2D bones can reach their target destination. Learn more in <a href="https://unity.com/how-to/2d-characters-and-animation-unity-2022-lts">How to</a>  <a href="https://unity.com/how-to/2d-characters-and-animation-unity-2022-lts">animate 2D characters in Unity 2022 LTS.</a></li>
+</ol>
+<p><img src="_page_28_Picture_0.jpeg" alt=""></p>
+<p>Animating the main character in <em>Happy Harvest</em> with 2D IK Solvers: The left image shows modifying the position of the bones and rotation, while the center and right images show changing the sprite for the hand with Sprite Resolver.</p>
+<ol>
+<li>Enhance your visuals with <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/Lights-2D-intro.html">2D Lights.</a> Lights feature easy-to-configure parameters like light colors, intensity, fall-off, and blending effects. Get additional tips on 2D lighting from <a href="https://unity.com/how-to/use-2d-lights-unity-set-mood?">this article</a> by Martin Reinmann of Odd Bug Studio, and <a href="https://unity.com/how-to/2d-light-shadow-techniques-in-the-universal-render-pipeline">this page</a> on 2D light and shadow techniques in the Universal Render Pipeline.</li>
+</ol>
+<p><img src="_page_28_Picture_3.jpeg" alt=""></p>
+<p>Using a sprite with a halo around a hanging lamp</p>
+<ol>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html">2D Sprite Shape</a> gives you the freedom to create rich free-form 2D environments with a visual and intuitive workflow. It tiles Sprites along a shape&#39;s outline, automatically deforming and swapping them based on the outline angle.</li>
+</ol>
+<p><img src="_page_28_Picture_6.jpeg" alt=""></p>
+<p>One example of how 2D Sprite Shape is used in the latest 2D sample project</p>
+<p>Sort your <a href="https://docs.unity3d.com/Manual/2DSorting.html?">Sprites</a> based on your preferred direction. This can be helpful if you have a number of Sprites within the same layer and sorting order (imagine a card game where the individual cards overlap a bit).</p>
+<p>In the built-in render pipeline, look in <strong>Edit &gt; Project Settings &gt; Graphics</strong>. Choose <strong>Custom Axis</strong> for the <strong>Transparency Sort Mode</strong>. For example, use (0, 1, 0) for the <strong>Transparency Sort Axis</strong> to sort along the Y axis from top to bottom.</p>
+<p>In the Universal Render Pipeline, set the <strong><a href="https://docs.unity3d.com/ScriptReference/Camera-transparencySortMode.html?">Camera.transparencySortMode</a></strong> to <strong>TransparencySortMode.CustomAxis</strong>, then set your axis using <strong><a href="https://docs.unity3d.com/ScriptReference/Camera-transparencySortAxis.html?">Camera.</a> <a href="https://docs.unity3d.com/ScriptReference/Camera-transparencySortAxis.html?">transparencySortAxis</a></strong>.</p>
+<p><img src="_page_29_Figure_3.jpeg" alt=""></p>
+<p>Transparency Sort Mode and Sort Axis</p>
+<ol>
+<li>Need custom shaders? Shader Graph includes two MasterNodes designed for 2D: <strong>Sprite Lit</strong> and <strong>Sprite Unlit</strong>. Create <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/ShaderGraph.html">2D shaders,</a> and enhance your 2D project visually. In Unity 2022 LTS, VFX Graph supports 2D. Add your 2D-based Shader Graphs in your graph Output and leverage the power of the GPU to render millions of particles.</li>
+</ol>
+<p><img src="_page_29_Figure_6.jpeg" alt=""></p>
+<p><img src="_page_30_Picture_0.jpeg" alt=""></p>
+<p>Shader Graph example from <em>Dragon Crashers</em></p>
+<ol>
+<li>Avoid overdraw to improve performance. Switch the <strong>Mesh Type</strong> to <strong>Tight</strong> in the <a href="https://docs.unity3d.com/Manual/class-TextureImporter.html?">Import Settings</a> for each Sprite. Merge overlapping graphics in a single Sprite whenever possible, and try to disable Sprites that could be in a background layer with no use in the game. This reduces the overdraw area and potential overlap with neighboring Sprites.</li>
+</ol>
+<p><img src="_page_30_Figure_3.jpeg" alt=""></p>
+<p>Reduce overdraw between Sprites</p>
+<p><img src="_page_30_Figure_5.jpeg" alt=""></p>
+<ol>
+<li>You can also consider defining a <a href="https://docs.unity3d.com/Manual/SpriteOutlineEditor.html?">custom</a>  <a href="https://docs.unity3d.com/Manual/SpriteOutlineEditor.html?">outline</a> around each Sprite using the <a href="https://docs.unity3d.com/Manual/SpriteEditor.html?">2D</a>  <a href="https://docs.unity3d.com/Manual/SpriteEditor.html?">Sprite Editor</a> to minimize the unused areas. In 2022 LTS the Sprite Library Editor provides a more efficient way to manage Sprite Libraries, with improved performance for larger sets of content.</li>
+</ol>
+<p>The Sprite Editor with a custom outline</p>
+<p><span id="page-31-0"></span>12. <a href="https://docs.unity3d.com/Packages/com.unity.2d.animation@9.0/manual/SpriteSwapIntro.html">Sprite Swap</a> is a feature that enables you to change a GameObject&#39;s rendered Sprite at runtime. This has a number of uses, such as easily creating multiple characters which <a href="https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/ex-skeleton-sharing.html">share a skeleton</a> (requires the PSD Importer package) or <a href="https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/SkinEdToolsShortcuts.html">reuse existing bone and Mesh data</a> while looking visually different.</p>
+<p>Unity 2022 LTS brings improvements to the Sprite Swap workflows with streamlined Sprite Swap keyframing in the Animation window.</p>
+<p><img src="_page_31_Picture_2.jpeg" alt=""></p>
+<p>Swapping sprite libraries from the initial dummy character in <em>Happy Harvest</em> to a male and female variation that share the same categories and labels.</p>
+<ol>
+<li>Other improvements for 2D animators in Unity 2022 LTS are Sprite deformation and IK Solvers in Animation preview windows. There is also an added Character Pivot tool in the Skinning Editor. You can use the new asset upgrading tool to upgrade older Sprite Library Assets and Animation Clips to the latest version.</li>
+</ol>
+<h4 id="pro-2d-tips-from-the-creators-of-happy-harvest-">Pro 2D tips from the creators of <em>Happy Harvest</em></h4>
+<ul>
+<li>Draw the character in a neutral position with arms and legs straight. If parts of the body are bent, it can cause issues when you&#39;re animating.</li>
+<li>Make the resolution a little higher than your game&#39;s Pixels per Unit (<a href="https://blog.unity.com/engine-platform/choosing-the-resolution-of-your-2d-art-assets">PPU)</a> suggests. A resolution might look good at rest, but rotating and stretching images can cause pixelation.</li>
+<li>If you&#39;re using 2D lighting extensively in your game and want to make the most of normal maps, don&#39;t paint the light and shadow onto your sprite. Instead, paint nondirectional shadows. This technique is called ambient occlusion. Your sprite will look better, but you&#39;ll want to avoid using any directional light like sunlight.</li>
+<li>Body part layers swapped using the Sprite Swap feature should be grouped accordingly. For example, all layers with mouth positions should be placed in a group called &quot;mouth&quot; in the image-editing app.</li>
+</ul>
+<p><img src="_page_32_Figure_0.jpeg" alt=""></p>
+<p>There are a number of possibilities for character rotation in a 2D top-down or isometric game. The bottom image shows animations of the main character facing three different directions.</p>
+<ul>
+<li>Often, a simple setup with 2D IK will work well for a decorative element. That&#39;s what was done for the pig prefab from <em>Happy Harvest</em>. Another example of a simple background animation is the swinging movement of the street lamps in <em>Happy Harvest</em>, that&#39;s achieved with an animation clip that plays in a loop and only changes the rotation of the sprite over time, without the need for rigging.</li>
+<li>Flipbook, or frame-by-frame, animation is a fast method for animating minor background characters with less overhead because it involves fewer frames. It&#39;s also well suited to the water splash effect.</li>
+<li>In <em>Happy Harvest</em>, the water effect and the breeze moving the bushes and trees are special effects created with the Shader Graph and VFX Graph.</li>
+</ul>
+<p><img src="_page_32_Picture_5.jpeg" alt=""></p>
+<p>Animating elements with different techniques, including simple animations, frame-by-frame, and effects created with the Shader Graph and VFX Graph</p>
+<ul>
+<li>Secondary Textures: Mask maps can be used to control where lights can affect a sprite. Mask maps help polish your game by enabling you to add details to your visuals. They&#39;re also used by the 2D Light Blend Styles.</li>
+<li>Lights and normal maps are used everywhere in <em>Happy Harvest</em> to create the illusion of volume. You can use normal maps with Spot, Point, and Freeform lights. Remember that you need to enable normal maps in the light object to use them in the sprites (two quality settings are available: Fast and Accurate).</li>
+<li>By default, 2D lights produce light by adding RGB values to the affected pixels. The higher the RGB values, the lighter the color is. However, if you change the Blend Style to Multiply, those RGB values are subtracted from the affected pixels, resulting in a darker color that simulates a shadow. You can then adjust these simulated shadows, also called negative lighting, via the same controls for lighter 2D lights.</li>
+<li>A quick and easy way to fake shadows is with a blob shadow, a blurred sprite that also uses negative lighting, which you can stretch to represent the ambient occlusion that an object produces on the ground.</li>
+</ul>
+<p><img src="_page_33_Picture_4.jpeg" alt=""></p>
+<p>The bushes in <em>Happy Harvest</em> appear to have depth thanks to normal maps (enabled by the normal map option in the Light component).</p>
+<h4 id="prefab-workflows">Prefab workflows</h4>
+<p>Prefabs allow fully configured GameObjects to be saved in the project for reuse. The current workflow with Prefabs lets you build your scenes flexibly and efficiently.</p>
+<p><span id="page-34-0"></span><img src="_page_34_Picture_2.jpeg" alt=""></p>
+<p>In <em>Dragon Crashers</em>, each unit overrides the base unit. The Overrides dropdown shows how the Prefab differs from the original.</p>
+<blockquote>
+<p>Create your Prefab as an Asset in the Project, then edit it in isolation in <strong>Prefab mode</strong>. Working with the Prefab by itself helps prevent applying unintended overrides. Make your changes with confidence with the background grayed out.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>6</th>
+<th>Units<br>Heroes<br>Villains<br>&gt; 2 Unit_Skeleton_Jabban<br>&gt; Unit_Skeleton_Yuanxing<br>V / Unit_Skeleton_Damak</th>
+<th>&gt;<br>&gt;</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Unit_CharacterVisuals<br>Unit_SFX<br>&gt; Unit_Abilities<br>Unit_DamageDisplayLocation<br>Environment<br>A</td>
+<td>Cut<br>Copy<br>Paste<br>Paste As Child</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>ကြပါ<br>V<br>Scene_VCams<br>A<br>Cutscenes<br>D</td>
+<td>Rename<br>Duplicate<br>Delete</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Select Children</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Set as Default Parent</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Prefab<br>A</td>
+<td>Open Asset in Context</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Create Empty<br>Create Empty Parent<br>2D Object<br>3D Object<br>Effects</td>
+<td>Open Asset in Isolation<br>Select Asset<br>Select Root<br>Unpack<br>Unpack Completely</td>
+</tr>
+</tbody>
+</table>
+<p>Edit each Prefab, either in Context or in Isolation.</p>
+<p><img src="_page_35_Picture_0.jpeg" alt=""></p>
+<p>Edit in Context mode to see the Prefab relative to the other objects in the Scene.</p>
+<p><img src="_page_35_Figure_2.jpeg" alt=""></p>
+<p>Isolate the Prefab in Prefab mode to avoid unintended overrides. Note how smaller prefabs make up this Nested Prefab.</p>
+<p><strong>Nested Prefabs</strong> allow you to parent Prefabs to one another. You can now create a larger Prefab, such as a building, composed of smaller Prefabs for the rooms and furniture. This makes it efficient to split development of your assets over a team of multiple artists and developers, who can all work on different parts of the content simultaneously.</p>
+<p>A <strong>Prefab Variant</strong> allows you to derive a Prefab from other Prefabs, much like inheritance in object-oriented programming. To change the Variant, just override certain parts without worry of impacting the original. You can also remove all modifications and revert to the base Prefab at any time.</p>
+<p>Alternatively, if you want to change all of your Variants at once, apply changes directly onto the base Prefab itself.</p>
+<p><span id="page-36-0"></span><img src="_page_36_Picture_0.jpeg" alt=""></p>
+<p>In <em>Dragon Crashers</em>, these Prefab Variants have different weapons and abilities. Use <strong>ApplyAll to Base</strong> to propagate changes to the</p>
+<p>Base object or <strong>Revert All</strong> to undo the overrides.</p>
+<p>See <a href="https://docs.unity3d.com/Manual/Prefabs.html">Unity documentation</a> for more information about working with Prefabs.</p>
+<h4 id="material-variants">Material Variants</h4>
+<p>Materials play a crucial role in rendering by determining how an object reflects or emits light. They can make an object look like metal, glass, wood, or even something abstract or magical. A material contains a reference to a shader object. If that shader object defines material properties, then the material can also contain data, such as colors or texture references.</p>
+<p>In Unity 2022 LTS, Material Variants allow for the reuse and improved management of materials that share most surface properties.</p>
+<p>With Material Variants, you can create templates or material prefabs. Based on a base template, you can create variants that share common properties with the template material and override only the properties that differ. If you change common and non-overridden properties in the template material, the changes automatically reflect in the variant material. You can also lock certain properties on material so they can&#39;t be overridden in the variants.</p>
+<p><img src="_page_36_Picture_8.jpeg" alt=""></p>
+<p>An example of Material Variants; these all share the same base material and only differ in the color property</p>
+<p>In a more complex setup, you can create variations of a variant material. The material inheritance hierarchy promotes reusability and improves iteration speed and scalability of material authoring in your project.</p>
+<h4 id="-span-id-page-37-0-span-textmeshpro"><span id="page-37-0"></span>TextMeshPro</h4>
+<p>TextMeshPro replaces Unity&#39;s UI Text and the legacy Text Mesh. Installed via the PackageManager, <a href="https://docs.unity3d.com/Manual/com.unity.textmeshpro.html?">TextMeshPro</a> uses custom shaders and advanced text rendering techniques to deliver flexible text styling and texturing.</p>
+<p>Use TextMeshPro to get access to features like character, word, line, and paragraph spacing, kerning, justified text, links, over 30 rich text tags available, support for Multi Font and sprites, custom styles, and more.</p>
+<p><img src="_page_37_Picture_3.jpeg" alt=""></p>
+<p>TextMeshPro example from <em>Dragon Crashers</em></p>
+<h4 id="-span-id-page-38-0-span-splines"><span id="page-38-0"></span>Splines</h4>
+<p>The <a href="https://docs.unity3d.com/Packages/com.unity.splines@2.5/manual/index.html">Splines package in Unity 2022 LTS</a> enables you to create spline paths in your game for rivers, roads, camera tracks, and other path-like visuals. Depending on the type of environment you&#39;re working on, splines can be an important component for your level designs.</p>
+<p><img src="_page_38_Picture_2.jpeg" alt=""></p>
+<p>Examples of use cases for splines: A road through a forest, an animation path, tubes, or wire meshes, and you can find other samples showcasing all the possibilities in the Splines Package Manager page once it&#39;s installed.</p>
+<p><img src="_page_38_Figure_4.jpeg" alt=""></p>
+<p>Create a new spline via <strong>GameObject &gt; Spline &gt; Draw Splines Tool</strong>. A new GameObject will be created in the Hierarchy with the Spline component attached and the tooling ready to use.</p>
+<p>The handles and controls for splines in Unity resemble vector or 3D drawing tools from well-known DCC applications.</p>
+<p>Once you&#39;ve created a spline, both programmers and artists can use it in interesting ways. For example, programmers can read points of the spline and use them in the game logic with the <a href="https://docs.unity3d.com/Packages/com.unity.splines@2.5/api/index.html">APIs.</a></p>
+<h4 id="-span-id-page-39-0-span-snapping"><span id="page-39-0"></span>Snapping</h4>
+<p>Working on a grid helps you fit your Prefabs together with less guesswork and greater consistency. Design your level so the pieces connect at scale, making it easier to rearrange and reassemble them.</p>
+<p>If you are constructing your Scenes from modular assets, use grid planes to align your GameObjects with each other. Rather than manually typing in round numbers into the Inspector, consider letting the grid snapping tools set your Transforms more quickly and precisely.</p>
+<p><img src="_page_39_Picture_3.jpeg" alt=""></p>
+<p>The Grid and Snap settings</p>
+<p>Unity provides three types of snapping to help you assemble your scenes quickly:</p>
+<ul>
+<li><strong>World grid snapping:</strong> Make sure the <strong>Move</strong> tool has the handle orientation set to <strong>Global</strong>. Hold <strong>Ctrl (Windows)</strong> or <strong>Cmd (macOS)</strong> to snap an object to the world grid increments set in <strong>Edit &gt; Grid and Snap Settings</strong>.</li>
+<li><strong>Surface snapping:</strong> Hold <strong>Shift</strong> and <strong>Ctrl</strong> (<strong>Windows</strong>) / <strong>Cmd</strong> (<strong>macOS</strong>) to snap an object to the intersection of any <strong>Collider</strong>.</li>
+<li><strong>Vertex snapping:</strong> Hold down the <strong>V</strong> key while the Move tool is active. This moves the current GameObject to the vertex position of another mesh. Before moving, hover the mouse over one vertex of the active GameObject to make that vertex act as a pivot. <strong>Shift-V</strong> toggles <strong>Vertex snapping</strong> mode on/off.</li>
+</ul>
+<p>Combine <strong>Vertex and Surface snapping</strong> for quick placement:</p>
+<ul>
+<li>Move the GameObject using <strong>Vertex snapping</strong> with the <strong>V</strong> key or <strong>Shift-V</strong>. Hover the cursor over a vertex as a pivot. Snap to another vertex as usual.</li>
+<li>Hold down the <strong>Shift</strong> and <strong>Ctrl</strong> (<strong>Windows</strong>) / <strong>Cmd</strong> (<strong>macOS</strong>) key combo to drag along the surface of the target Mesh.</li>
+<li>Release the mouse button and <strong>V</strong> key once the object is at the desired location.</li>
+</ul>
+<p>Open the <strong>Grid and Snap window</strong> from either <strong>Edit &gt; Grid and Snap Settings</strong> or from the grid visibility drop-down menu.</p>
+<table>
+<thead>
+<tr>
+<th>载<br>V</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grid Axis</td>
+<td></td>
+</tr>
+<tr>
+<td>X<br>Y<br>1</td>
+<td>Reset</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>Edit Grid and Snap Settings</td>
+</tr>
+<tr>
+<td>Grid Settings</td>
+<td></td>
+</tr>
+<tr>
+<td>0.5<br>Opacity</td>
+</tr>
+</tbody>
+</table>
+<p>Grid and Snap settings</p>
+<p>These grid snapping shortcuts are created by default.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Default Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Ctrl + ] (Windows) or</td>
+</tr>
+<tr>
+<td>Increase Grid Size</td>
+<td>Cmd + ] (macOS)</td>
+</tr>
+<tr>
+<td></td>
+<td>Ctrl + [ (Windows) or</td>
+</tr>
+<tr>
+<td>Decrease Grid Size</td>
+<td>Cmd + [ (macOS)</td>
+</tr>
+<tr>
+<td>Nudge Grid Backward</td>
+<td>Shift + [</td>
+</tr>
+<tr>
+<td>Nudge Grid Forward</td>
+<td>Shift + ]</td>
+</tr>
+<tr>
+<td></td>
+<td>Ctrl + \ (Windows) or</td>
+</tr>
+<tr>
+<td>Align Selection to Grid</td>
+<td>Cmd + \ (macOS)</td>
+</tr>
+</tbody>
+</table>
+<p>Need even more control? Consider using the <a href="https://docs.unity3d.com/Packages/com.unity.progrids@3.0/manual/grids.html?">ProGrids</a> package for even finer control of your snapping and grid planes.</p>
+<p><span id="page-41-0"></span><img src="_page_41_Picture_0.jpeg" alt=""></p>
+<p>ProGrids</p>
+<h4 id="animation-workflow">Animation workflow</h4>
+<p>You can animate just about any property in Unity without writing a single line of code using the <strong>Animation Window</strong> (<strong>Window &gt; Animation &gt; Animation</strong>). In addition to modifying movement, you can even drive parameters defined in your custom scripts.</p>
+<p>Create Animation Clips here, or work in a third-party DCC package of your choice (Autodesk® Maya®, Blender, etc). Think of each clip as an individual unit of motion.</p>
+<p><img src="_page_41_Figure_5.jpeg" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>0.0</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>Animation</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Animation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Preview 0 HA 14 ▶<br>A 24</td>
+<td>0</td>
+<td>0:00</td>
+<td>10:30</td>
+<td>1:00</td>
+<td>11:30</td>
+<td>2:00</td>
+</tr>
+<tr>
+<td>AnimClip_Character_Dragon_Idle ▼</td>
+<td>�</td>
+<td>114</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; ↓ Leg Front R LimbSolver2D_Target : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>&gt; Neck CCDSolver2D_Target : Position</td>
+<td></td>
+<td></td>
+<td>•</td>
+<td>�</td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; J. hip : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>▼ J. hip : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>J Rotation.x<br>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&amp; Rotation.y<br>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>J. Rotation.z</td>
+<td>91.121</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; Jabdomen : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>&gt; Jabdomen : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>Jochest : Position<br>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>J chest : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; Aneck01 : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>J.neck01 : Rotation<br>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; Aneck02 : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; &gt; neck02 : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; &lt; neck03 : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jneck03 : Rotation<br>b</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; J-neck04 : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; &lt; neck04 : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; Aneck05 : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Aneck05 : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; head : Position</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>◆</td>
+</tr>
+<tr>
+<td>&gt; Ahead : Rotation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>�</td>
+</tr>
+<tr>
+<td>Dopesheet</td>
+<td>Curves</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The Animation window can represent the same animation data as curves or a dopesheet.</p>
+<p>Edit the AnimationClip Asset within the window in either <strong>Dopesheet</strong> or <strong>Curve</strong> mode. Use <strong>K</strong> or <strong>C</strong> shortcuts, respectively, to toggle between the two. Use standard shortcuts to frame all keyframes (<strong>A</strong>) or frame selected keyframes (<strong>F</strong>).</p>
+<p><img src="_page_42_Figure_3.jpeg" alt=""></p>
+<p>The AnimatorController links the Animation Clips in a visual graph.</p>
+<p>Once you have several Animation Clips for your GameObject, the AnimatorController acts as a state machine to create a flowchart-like graph between them.</p>
+<p>This allows artists to produce sophisticated animation with greater independence from programmers. If you&#39;re using a 2D or 3D rig, you can animate its body parts with different logic. Take advantage of the layering and masking features for greater control. Prototype your motions in a visual programming tool to fine-tune any transitions or interactions between your clips.</p>
+<p>Extend this further using the <a href="https://docs.unity3d.com/Packages/com.unity.animation.rigging@1.3/manual/index.html">Animation Rigging</a> package. This package provides a library of rig and inverse kinematic constraints that can create procedural motion. Animated skeletons can thus interact with the environment with &quot;runtime rigging,&quot; or physics-based constraints can add dynamic secondary motion.</p>
+<p><span id="page-43-0"></span><img src="_page_43_Picture_1.jpeg" alt=""></p>
+<p>Constraints can modify your animation at runtime.</p>
+<p><img src="_page_43_Figure_3.jpeg" alt=""></p>
+<p>Refer to the manual pages about <a href="https://docs.unity3d.com/Manual/AnimationClips.html?">AnimationClips</a> and <a href="https://docs.unity3d.com/Manual/AnimatorControllers.html?">AnimationController</a> for more information about their usage. Read <a href="https://unity.com/how-to/advanced-programming-and-code-architecture?">Unity&#39;s evolving best practices</a> for more about optimizing your animation components.</p>
+<h4 id="-span-id-page-44-0-span-custom-gizmos-and-icons"><span id="page-44-0"></span>Custom gizmos and icons</h4>
+<p>Gizmos are small overlay graphics associated with your GameObjects. Use them to navigate the viewport or locate specific objects.</p>
+<p>Modify the icons for a GameObject using the <strong>Select Icon</strong> menu. Choose <strong>Other</strong> to define your own icon.</p>
+<table>
+<thead>
+<tr>
+<th>O Inspector</th>
+<th></th>
+<th>a :</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt;<br>Cube</td>
+<td></td>
+<td>Static ▼</td>
+</tr>
+<tr>
+<td></td>
+<td>Layer Default<br>&gt;</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td>Select Icon<br>None</td>
+<td>Overrides<br>Select</td>
+<td>A</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>0<br>th<br>. C</td>
+</tr>
+<tr>
+<td>. . 000</td>
+<td>X 0<br>YO</td>
+<td>ZO</td>
+</tr>
+<tr>
+<td>���������</td>
+<td>X 0<br>Y O</td>
+<td>ZO</td>
+</tr>
+<tr>
+<td>Other</td>
+<td>×1<br>Y 1</td>
+<td>Z 1</td>
+</tr>
+</tbody>
+</table>
+<p>Use the drop-down in the Inspector to switch gizmos.</p>
+<p><img src="_page_44_Picture_5.jpeg" alt=""></p>
+<p>Select a custom gizmo using the Other… option.</p>
+<p>You can also create gizmos with scripts and make them interactive. For example, a gizmo could help you define a volume or area of influence for a custom component.</p>
+<p><img src="_page_44_Picture_8.jpeg" alt=""></p>
+<p>In this example, a script changes the gizmo based on a selection.</p>
+<p>Use the <strong>Gizmos</strong> dialogue in the Scene control bar to toggle specific gizmos or globally enable/disable all of them.</p>
+<p>See <a href="https://learn.unity.com/tutorial/creating-custom-gizmos-for-development-2019-2?uv=2019.4?">Creating Custom Gizmos for Development</a> for usage examples. Also, review the APIs for <a href="https://docs.unity.cn/ScriptReference/Gizmos.html?">Gizmos</a> and <a href="https://docs.unity.cn/ScriptReference/Handles.html?">Handles</a>.</p>
+<h4 id="ui-toolkit">UI Toolkit</h4>
+<p><span id="page-45-0"></span><img src="_page_45_Picture_1.jpeg" alt=""></p>
+<p>A screen shot from the Unity demo UI Toolkit Sample – <em>Dragon Crashers</em>, available on the Asset Store</p>
+<p>UI Toolkit is tailored for maximum performance and reusability, with workflows and authoring tools inspired by standard web technologies. UI designers and artists will find it familiar if they already have experience designing web pages.</p>
+<p>While UI Toolkit is intended to become the recommended system for UI development, it does not include some of the features supported by Unity UI. This makes the latter system a more appropriate choice for certain use cases and legacy projects. See <a href="https://docs.unity3d.com/Manual/UI-system-compare.html?">Comparison of UI systems in Unity</a> for more information.</p>
+<h4 id="-learn-in-depth-with-the-ui-toolkit-e-book-and-sample-project-"><strong>Learn in-depth with the UI Toolkit e-book and sample project</strong></h4>
+<p>We recommend that you download the e-book <em><a href="https://unity.com/resources/user-interface-design-and-implementation-in-unity?isgated=false">User interface design and</a>  <a href="https://unity.com/resources/user-interface-design-and-implementation-in-unity?isgated=false">implementation in Unity</a></em> to get in-depth instruction in how to create UI with UI Toolkit across a wide range of devices.</p>
+<p>A sample project accompanies the e-book. <em><a href="https://assetstore.unity.com/packages/essentials/tutorial-projects/ui-toolkit-sample-dragon-crashers-231178">UI Toolkit Sample – Dragon Crashers</a></em>  is available in the Unity Asset Store. The UI Toolkit sample demonstrates how you can leverage UI Toolkit for your own applications. This demo involves a fullfeatured interface over a slice of the 2D project <em>Dragon Crashers,</em> a mini-RPG, using the Unity 2021 LTS UI Toolkit workflow at runtime.</p>
+<h4 id="-span-id-page-46-0-span-progressive-lightmapper"><span id="page-46-0"></span>Progressive Lightmapper</h4>
+<p>Lightmapping allows you to precalculate both direct and indirect lighting, then store the result in a Texture called a lightmap for later use. Unity offers a number of Global Illumination (GI) techniques to produce high-quality lighting and shadows. Though lightmapped geometry is performant at runtime, baking a lightmap has historically been expensive.</p>
+<p><img src="_page_46_Picture_2.jpeg" alt=""></p>
+<p>The final scene with lightmaps applied.</p>
+<p><img src="_page_46_Picture_4.jpeg" alt=""></p>
+<p>The same scene without lightmapping.</p>
+<p>The <a href="https://docs.unity3d.com/Manual/progressive-lightmapper.html?">Progressive Lightmapper</a> is a fast path tracer that produces a result quickly, then refines the render over time. You can thus interrupt the process to make changes without waiting for the final bake to complete, allowing you to iterate more rapidly. Here are some tips to speed up your lightmapping:</p>
+<ul>
+<li>Enable <strong>Prioritize View</strong> so the Progressive Lightmapper works on texels currently visible in the Scene view first before changing anything outside of view.</li>
+<li>Reduce unnecessary <strong>Samples</strong> (Direct and Indirect Samples) and <strong>Bounces</strong> (two is usually sufficient; only increase if necessary).</li>
+<li>Optimize the <strong>Lightmap Resolution</strong> and texel count for your lighting needs. The number of texels represents how much work your lightmapper needs to do. Because lightmaps are 2D textures, doubling the lightmap resolution quadruples the amount of work.</li>
+<li>Reduce texels on hidden surfaces, small or thin objects, or anything where lightmapping won&#39;t make much impact. Each MeshRenderer contributing to Global Illumination has a <strong>Scale in Lightmap</strong> option to reduce its relative UV size in the lightmap.</li>
+<li>Choose the proper <strong><a href="https://docs.unity3d.com/Manual/lighting-mode.html?">Lighting Mode</a></strong>: <a href="https://docs.unity3d.com/Manual/LightMode-Mixed-BakedIndirect.html?">Baked Indirect,</a> <a href="https://docs.unity3d.com/Manual/LightMode-Mixed-Subtractive.html?">Subtractive,</a> <a href="https://docs.unity3d.com/Manual/LightMode-Mixed-Shadowmask.html?">ShadowMask</a>. You don&#39;t need to bake shadows if it&#39;s not required for your art direction.</li>
+<li>The current Progressive CPU Lightmapper uses your machine&#39;s CPU and RAM. The newer <strong>Progressive GPU Lightmapper</strong> (in Preview) uses your GPU and VRAM, potentially speeding up the bake considerably. If your computer meets the <a href="https://docs.unity3d.com/Manual/GPUProgressiveLightmapper.html?">hardware and software requirements,</a> this can dramatically accelerate up your lighting workflow (tenfold in some cases).</li>
+</ul>
+<p><img src="_page_47_Picture_7.jpeg" alt=""></p>
+<p>Preview of a baked Lightmap</p>
+<h4 id="-span-id-page-48-0-span-light-probes"><span id="page-48-0"></span>Light Probes</h4>
+<p>Global Illumination produces beautiful indirect lighting, but this can be expensive to calculate and store on disk. If you have set dressing or other static meshes that don&#39;t absolutely require lightmapping, consider removing them from your lightmap bakes and use <a href="https://docs.unity3d.com/Manual/LightProbes.html?">Light Probes</a> instead.</p>
+<p>In this example, Light Probes could approximate both direct and bounced lighting for the smaller objects, reserving the higher-quality lightmapping where it&#39;s more noticeable.</p>
+<p><img src="_page_48_Picture_3.jpeg" alt=""></p>
+<p>Lightmaps applied to the <em>Viking Village</em> project Use Light Probes for smaller details where lightmapping is less noticeable.</p>
+<p>Formerly reserved for dynamic objects, Light Probes can apply to static meshes as well. In the MeshRenderer component, locate the <strong>Receive Global Illumination</strong> dropdown and toggle it from <strong>Lightmaps</strong> to <strong>Light Probes</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>· Inspector</th>
+<th></th>
+<th></th>
+<th></th>
+<th>a :</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8<br>build_tower_01<br>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>- Static -</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tag Untagged</td>
+<td>Layer Default<br>&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25<br>Transform<br>D</td>
+<td></td>
+<td></td>
+<td></td>
+<td>0 :</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Position</td>
+<td>× 0</td>
+<td>Y 0</td>
+<td>2<br>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>× 0</td>
+<td>Y O</td>
+<td>Z<br>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Scale</td>
+<td>× 1</td>
+<td>Y 1</td>
+<td>2<br>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13<br>Build_tower_01 (Mesh Filter)<br>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td>0 元<br></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mesh</td>
+<td>build_tower_01</td>
+<td></td>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- Mesh Renderer</td>
+<td></td>
+<td></td>
+<td></td>
+<td>0 7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; Materials</td>
+<td></td>
+<td></td>
+<td></td>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V Lighting</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Cast Shadows</td>
+<td>On</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Contribute Global Illumination</td>
+<td>Lightmaps</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Receive Global Illumination</td>
+<td>V Light Probes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V Probes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Light Probes</td>
+<td>Off</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Reflection Probes</td>
+<td>Simple</td>
+<td></td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Anchor Override</td>
+<td>None (Transform)</td>
+<td></td>
+<td></td>
+<td>O</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>In Deferred Shading, all objects receive shadows and get per-pixel reflection probes.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Additional Settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dynamic Occlusion</td>
+<td>V</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rendering Layer Mask</td>
+<td>Layer1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Selecting Light Probes</p>
+<p>Light Probe illumination does not require proper UVs, saving you the extra step of unwrapping your meshes. The Spherical Harmonics basis functions used in probe lighting make it fast to calculate relative to lightmapping.</p>
+<p>Arrange Light Probes and Light Probe Groups spatially in the scene. Probe lighting typically bakes faster than lightmapping.</p>
+<p><img src="_page_49_Picture_2.jpeg" alt=""></p>
+<p>A Light Probe Group with Light Probes spread across the level</p>
+<p>See <a href="https://blog.unity.com/technology/static-lighting-with-light-probes">Static Lighting with Light Probes</a> for information about selectively lighting scene objects with <a href="https://docs.unity3d.com/Manual/LightProbes.html">Light Probes.</a></p>
+<p>For more about lighting workflows in Unity, read <a href="https://docs.unity3d.com/2020.1/Documentation/Manual/BestPracticeMakingBelievableVisuals.html?">Making believable visuals in Unity</a>.</p>
+<p><span id="page-50-0"></span><img src="_page_50_Picture_1.jpeg" alt=""></p>
+<p>Adaptive probe volumes in a scene</p>
+<p>Manually placing light probes can be tedious and imprecise. <strong>Adaptive probe volumes (APVs) in Unity 2022 LTS</strong> (named Probe Volumes in the Editor) offer a more accurate solution by automating light probe positions. This results in higher-quality lighting that works per pixel, not per object. APVs are supported in HDRP with URP support coming soon. Learn more in this <a href="https://www.youtube.com/watch?v=DlxuvvYZO4Q">Unite 2022 talk.</a></p>
+<p>Unity 2022 LTS and HDRP (versions 14 and up) bring improvements to the workflows for APVs, including:</p>
+<ul>
+<li>Adds a system that reduces leaks based on probe validity. This includes the new Probe Touch up Volume that you can use to tune values in specific areas.</li>
+<li>Allows you to bake separate lighting scenarios and blend between them</li>
+<li>Uses a more efficient data layout to optimize asset loading time</li>
+</ul>
+<h4 id="-span-id-page-51-0-span-tips-for-the-universal-render-pipeline"><span id="page-51-0"></span>Tips for the Universal Render Pipeline</h4>
+<p><a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/whats-new/urp-whats-new.html">URP</a> is designed to be efficient for you to learn, customize, and scale to all Unity-supported platforms. Our top goal is that URP is the leading renderer for mobile, XR, and untethered hardware.</p>
+<p>URP is the successor to our Built-in Render Pipeline. It will provide all the functionality you are familiar with, but with better performance, greater customizability, and more productive workflows.</p>
+<h4 id="-in-depth-technical-resources-for-urp-"><strong>In-depth technical resources for URP</strong></h4>
+<ul>
+<li><em><a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators?isGated=false">The Universal Render Pipeline for advanced Unity users</a></em>: This e-book was created by a highly experienced Unity developer in collaboration with senior graphics engineers at Unity. Topics covered include:<ul>
+<li>How to set up URP for a new project or convert an existing Built-in Render Pipeline-based project to URP</li>
+<li>A comparison of URP and Built-in Render Pipeline Quality settings</li>
+<li>Lighting in URP, namely lighting a new scene, managing shadows, Light Modes, Light Layers, Light Probes, and more</li>
+<li>A comparison of URP and Built-in Render Pipeline shaders</li>
+<li>Callback differences between the two rendering pipelines</li>
+<li>Shader Graph, Visual Effects Graph, 2D features, and integrating post-processing effects with URP</li>
+</ul>
+</li>
+<li><em><a href="https://unity.com/resources/the-universal-render-pipeline-cookbook-unity-2022-lts-edition?isGated=false">Recipes for popular visual effects using the Universal Render Pipeline</a></em>: This handy cookbook provides 12 recipes for popular visual effects that can be applied to a wide range of games, art styles, and platforms.</li>
+</ul>
+<p>Let&#39;s look at some helpful tips for using URP in Unity 2022 LTS.</p>
+<ol>
+<li>URP provides a <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.1/manual/urp-universal-renderer.html?">Universal Renderer</a> that supports Forward, <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@16.0/manual/rendering/forward-plus-rendering-path.html">Forward+</a> and <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.1/manual/rendering/deferred-rendering-path.html?">Deferred</a> rendering paths, as well as a <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.1/manual/2d-index.html?">2D Renderer</a>.</li>
+</ol>
+<p>URP provides equal, if not better performance than the Built-in Render Pipeline for comparable Quality settings in the majority of cases. For example, it evaluates real-time lighting more efficiently. In Forward rendering it evaluates all lighting in a single pass. Forward+ rendering, available in 2022 LTS and later, improves upon standard Forward rendering by culling lights spatially rather than per object. This increases the overall number of lights that can be utilized in rendering a frame.</p>
+<p>In Deferred rendering, it supports the Native RenderPass API, allowing G-buffer and lighting passes to be combined into a single render pass.</p>
+<p>URP is also compatible with the latest artist-friendly tools, such as <a href="https://docs.unity3d.com/Packages/com.unity.shadergraph@13.0/manual/index.html?">Shader</a>  <a href="https://docs.unity3d.com/Packages/com.unity.shadergraph@13.0/manual/index.html?">Graph,</a> <a href="https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@12.1/manual/index.html?">VFX Graph</a>, and the <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-debugger.html">Rendering Debugger.</a></p>
+<ol>
+<li>The <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-layers.html?">Rendering Layers</a> feature lets you configure certain Lights to affect only specific GameObjects. With the <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-layers.html#shadow-layers">Custom Shadow Layers</a> property, you can configure certain GameObjects to cast shadows only from specific Lights (even if those Lights do not affect the GameObjects).</li>
+</ol>
+<p>Rendering Layers work not only with Lights, but also with Decals.</p>
+<p><img src="_page_52_Picture_2.jpeg" alt=""></p>
+<p>Highlighting an object using Rendering Layers</p>
+<ol>
+<li>Decal Projectors are a great way of adding detail to a mesh. Use them for elements such as bullet holes, footsteps, signage, cracks, and more. Because they use a projection framework they conform to an uneven or curved surface. To use a Decal Projector with URP, you need to locate your Renderer Data asset and add the <strong>Decal Renderer Feature</strong>.</li>
+</ol>
+<p><img src="_page_52_Picture_5.jpeg" alt=""></p>
+<p>Adding the Decal Renderer Feature</p>
+<p>For most purposes, you can accept the default settings (learn more about these <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/renderer-feature-decal.html">here</a>).</p>
+<p>Now your scene is ready for Decals. Create a Decal by right-clicking in the Hierarchy view and select <strong>Rendering &gt; URP Decal Projector.</strong> By default, the projector uses the material Decal, which will project a white square onto a surface. Use the usual tools to position and orientate the projector. Adjust the <strong>Width</strong>, <strong>Height</strong> and <strong>Projection Depth</strong> in the Inspector. To customize the decal create a material using the <strong>Shader Graph &gt; Decal</strong> shader. This shader has three inputs: Base Map, Normal Map, and Normal Blend. Once the material is prepared, assign it to the Decal Projector.</p>
+<p><img src="_page_53_Picture_1.jpeg" alt=""></p>
+<p>From left to right: No decal in the image, the decal hitting all objects, and the decal applied to the wall only, using Rendering Layers</p>
+<ol>
+<li>Even if you follow the correct steps to convert a Built-in Render Pipeline project to URP (you can find the steps in the e-book <em><a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators?isGated=false">Introduction to the</a>  <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators?isGated=false">Universal Render Pipeline for advanced Unity creators</a></em>), you might find that your scenes are suddenly colored magenta. This is because the shaders used by the materials in a Built-in Render Pipeline project are not supported in URP. Fortunately, there is a method to restore your scenes to their original quality.</li>
+</ol>
+<p>Go to <strong>Window &gt; Rendering &gt; Render Pipeline Converter</strong>. Choose <strong>Convert Built-n to 2D (URP)</strong> for a 2D project, or <strong>Built-In to URP</strong> for a 3D project. Assuming that your project is 3D, you&#39;ll need to select the <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.1/manual/features/rp-converter.html?">appropriate</a>  <a href="https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@13.1/manual/features/rp-converter.html?">converters:</a></p>
+<ul>
+<li><strong>Rendering Settings:</strong> Select this to create multiple Render Pipeline setting assets that will match Built-in Render Pipeline Quality settings as closely as possible. This lets you test different Quality Levels more efficiently. See the section in the <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators-2022lts?isGated=false">URP e-book</a> on comparing Built-in Render Pipeline and URP Quality options for more details.</li>
+<li><strong>Material Upgrade</strong>: Use this to convert materials from the Built-in Render Pipeline to URP.</li>
+<li><strong>Animation Clip Converter:</strong> This converts animation clips. It runs once the Material Upgrade converter finishes.</li>
+<li><strong>Read-only Material Converter:</strong> This converts the prebuilt, readonly Materials included in a Unity project. It indexes the project and creates the temporary .index file. Note that it can take significant time. Add in a quick tips list for the SRPs as I suggested in the draft (under the lighting section).</li>
+</ul>
+<p>Once you select one or more of the above converters, either click <strong>Initialize Converters</strong> or <strong>Initialize And Convert</strong> (the latter option is included in the Render Pipeline Converter window in Unity 2022 LTS). Whichever option you choose, the project will be scanned, and those assets that need converting will be added to each of the converter panels. If you choose <strong>Initialize Converters</strong>, you can limit the conversions by deselecting the items using the checkbox provided for each one. At this stage, click <strong>Convert Assets</strong> to start the conversion process. If you choose <strong>Initialize And Convert</strong>, the conversion starts automatically after the converters are initialized. Once it&#39;s complete, you might be asked to reopen the scene that&#39;s active in the Editor.</p>
+<p>Unity 2022 LTS provides improvements of the Render Pipeline Converter, including:</p>
+<ul>
+<li>Certain dialogs now show the number of selected elements and the total number of elements.</li>
+<li>You can click each converter to see more information about the elements it converts.</li>
+<li>Material converter section improvements:<ul>
+<li>Items in the list are sorted alphabetically now.</li>
+<li>The converter handles Materials in packages better.</li>
+<li>The converter ignores Shader Graph shaders.</li>
+</ul>
+</li>
+<li>Performance improvement:<ul>
+<li>Indexing is significantly faster, improving the performance of converters that use an .index file.</li>
+</ul>
+</li>
+<li><ol>
+<li>If you convert a project from the Built-in Render Pipeline to URP, you might notice differences in the lighting. This is because the Built-in Render Pipeline uses a gamma lighting model by default and URP uses a linear model. As such, any light with an intensity value differing from 1.0 will need to be adjusted.</li>
+</ol>
+</li>
+</ul>
+<p>There are also differences in where to find the Settings controls in-Editor, as well as how to handle the challenge of widely differing hardware specs. The rest of this section covers some tricks you can use to achieve balance between graphic fidelity and performance.</p>
+<p>You&#39;ll set properties in the three places listed here. The first and second locations are essentially the same for both render pipelines, while the third location applies to URP only:</p>
+<p>— <strong>Window &gt; Rendering &gt; Lighting:</strong> This panel allows you to set lightmapping and environment settings, as well as view real-time and baked lightmaps. It is unchanged from the Built-in Render Pipeline to URP.</p>
+<ul>
+<li><strong>Light Inspector:</strong> There are significant differences between the Built-in Render Pipeline and URP Inspectors. See the <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators-2022lts?isGated=false">Light Inspector section</a> in the URP e-book for details.</li>
+<li><strong>URP Asset Inspector:</strong> This is the principal place where you will set shadows. Lighting in URP relies heavily on the settings chosen in this panel.</li>
+</ul>
+<p>Quality settings are handled via <strong>Edit &gt; Project Settings &gt; Quality</strong> in the Built-in Render Pipeline. In URP, this depends on the URP Asset settings which can be swapped using the <strong>Quality</strong> panel (See the <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators-2022lts?isGated=false">Quality settings</a>  <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators-2022lts?isGated=false">section</a> in the URP e-book).</p>
+<ol>
+<li>Shadow settings are no longer available via <strong>Project Settings &gt; Quality</strong>. You need a Renderer Data object and a Render Pipeline Asset when using URP. There is a section on setting up a project for URP in the URP <a href="https://unity.com/resources/introduction-universal-render-pipeline-for-advanced-unity-creators-2022lts?isGated=false">e-book</a> that covers how to view your scene via the Render Pipeline Asset, which you can use to define the fidelity of your shadows.</li>
+</ol>
+<p><img src="_page_55_Figure_4.jpeg" alt=""></p>
+<p>The URP Asset</p>
+<p>The Lighting and Shadow groups in the URP Asset are key to setting up shadows in your scene. First, set the <strong>Main Light Shadow</strong> to <strong>Disabled</strong> or <strong>Per Pixel</strong>, then go to the checkbox to enable <strong>Cast Shadows</strong>. The last setting is the resolution of the shadow map.</p>
+<p>Another important setting for the Main Light Shadow is Max Distance. This is set in scene units. The Max Distance property needs to relate directly to what the user can see, as well as the units used in the scene. Aim for the minimum distance that gives acceptable shadows (see note below). If the player only sees shadows from dynamic objects 60 units from the Camera, then set Max Distance to 60.</p>
+<ul>
+<li><ol>
+<li>A great feature of SRPs is that you can add code at just about any stage of the rendering process using a C# script. Scripts can be injected at stages such as:<ul>
+<li>Rendering shadows</li>
+<li>Rendering prepasses</li>
+<li>Rendering G-buffer</li>
+<li>Rendering Deferred lights</li>
+<li>Rendering opaques</li>
+<li>Rendering Skybox</li>
+<li>Rendering transparents</li>
+<li>Rendering post-processing</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p>You can inject scripts in the rendering process via the <strong>Add Renderer Feature</strong> option in the Inspector for the <strong>Universal Renderer Data Asset</strong>. Remember, when using URP, there is a Universal Renderer Data object and a URP Asset. The URP Asset has a Renderer List with at least one Universal Renderer Data object assigned. It is the asset you assign in <strong>Project Settings &gt; Graphics &gt; Scriptable Render Pipeline Settings</strong>.</p>
+<p>If you are experimenting with multiple setting assets for different scenes, then attaching the following script to your Main Camera can be useful. Set the <strong>Pipeline Asset</strong> in the Inspector. Then it will switch the asset when the new scene is loaded.</p>
+<pre><code><span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">using</span> UnityEngine.Rendering;
+<span class="hljs-keyword">using</span> UnityEngine.Rendering.Universal;
+ [ExecuteAlways]
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">AutoLoadPipelineAsset</span> : <span class="hljs-title">MonoBehaviour</span>
+{
+   <span class="hljs-keyword">public</span> UniversalRenderPipelineAsset pipelineAsset;
+   <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">OnEnable</span>(<span class="hljs-params"></span>)
+   </span>{
+ <span class="hljs-keyword">if</span> (pipelineAsset)
+ {
+ GraphicsSettings.renderPipelineAsset = 
+ pipelineAsset;
+ } 
+   }
+}
+</code></pre><p>Script to switch Universal Render Pipeline Asset on scene load</p>
+<h4 id="-span-id-page-57-0-span-tips-for-the-high-definition-render-pipeline"><span id="page-57-0"></span>Tips for the High Definition Render Pipeline</h4>
+<p>With HDRP&#39;s cutting-edge real-time 3D graphics, you can take players to visually stunning environments that push the boundaries of game design. HDRP extends Unity&#39;s existing lighting system with a variety of features to make rendering your scene more closely resemble real-world lighting, including:</p>
+<ul>
+<li>Physical light units and advanced lighting</li>
+<li>Skyscapes</li>
+<li>Terrains</li>
+<li>Water system</li>
+<li>Fog</li>
+<li>Volume system</li>
+<li>Post-processing</li>
+<li>Advanced shadows</li>
+<li>Advanced reflections</li>
+<li>Extensibility</li>
+</ul>
+<p>Unity 2022 LTS and above includes the HDRP package with the installation to ensure that you&#39;re always running on the latest verified graphics code. When you install the most recent Unity release, it also installs the corresponding version of HDRP. Tying the HDRP graphics packages to a specific Unity release helps ensure compatibility. However, you can also switch to a custom version of HDRP by overriding the manifest file.</p>
+<p>The e-book <em><a href="https://unity.com/resources/hdrp-lighting-environments-2022-lts-ebook?isGated=false">Definitive guide to lighting in the High Definition Render Pipeline</a>  <a href="https://unity.com/resources/hdrp-lighting-environments-2022-lts-ebook?isGated=false">in Unity</a></em> provides hundreds of pages detailing what HDRP systems do, how to understand their capabilities so you can use them in the best way possible for your project, and step-by-step instructions for implementing and tweaking them.</p>
+<ol>
+<li>The <strong>HDRP Global Settings</strong> section (or <strong>HDRP Default Settings</strong> prior to version 12) determines the baseline configuration of the project. You can override these settings in the scene by placing local or global Volume components, depending on the camera position (see Volumes below).</li>
+</ol>
+<p>Global Settings save in their own separate Pipeline Asset defined at the top field. Set up the default rendering and post-processing options here.</p>
+<p>As you develop your project, you might need to return to the <strong>Global</strong> settings to toggle a specific feature on or off. Some features will not render unless the corresponding checkbox in <strong>HDRP Global Settings</strong> is enabled. Make sure you only enable features you require because they might negatively impact the rendering performance and memory usage. Also, certain settings will appear in the <strong>Volume Profiles</strong>, while other features appear in the <strong>Frame Settings</strong>, depending on usage.</p>
+<p>While familiarizing yourself with HDRP&#39;s feature set, make use of the top right Search field in the Project Settings. This will only show you the relevant panels with the search terms highlighted.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Project Settings</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Settings</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>a refraction</td>
+<td>×</td>
+</tr>
+<tr>
+<td></td>
+<td>HDRP Global Settings   HDRP Global Settings</td>
+<td></td>
+<td></td>
+<td>@</td>
+</tr>
+<tr>
+<td></td>
+<td>Low Resolution Transparent</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Ray Tracing</td>
+<td>&lt; &lt; &lt; &lt; &lt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Custom Pass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Motion Vectors</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Opaque Object Motion</td>
+<td>&lt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Transparent Object Motion</td>
+<td>V</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Refraction</td>
+<td>&lt; &lt; &lt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Distortion</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Rough Distortion</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Post-process</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Custom Post-process</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Stop NaN</td>
+<td>&lt; &lt; &lt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Depth Of Field</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Search for HDRP features</p>
+<p>Enabling a feature in the HDRP Global Settings does not guarantee it can be rendered at any time by any camera. You must ensure that the Render Pipeline Asset whose Quality level is selected under <strong>Projects Settings &gt; Quality</strong> supports that feature as well. For instance, to ensure cameras can render Volumetric Clouds, you must toggle them under <strong>HDRP Global Settings &gt; Frame Settings &gt; Camera &gt; Lighting</strong> and in the active Render Pipeline Asset, under <strong>Lighting &gt; Volumetrics</strong>.</p>
+<ol>
+<li>HDRP uses a <strong>Volume framework</strong>. This system allows you to split up your Scene and enable certain settings or features based on camera position. A volume is just a placeholder object with a Volume component. You can create one through the <strong>GameObject &gt; Volume</strong> menu by selecting a preset. Otherwise, simply make a GameObject with the correct components manually.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Volume<br>A<br>Cinemachine</th>
+<th>Global Volume<br>Sky and Fog Global Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Camera<br>Rendering<br>Visual Effects<br>Visual Scripting Scene Variables</td>
+<td>Box Volume<br>Sphere Volume<br>Convex Mesh Volume</td>
+</tr>
+<tr>
+<td>Center On Children</td>
+<td>Custom Pass</td>
+</tr>
+</tbody>
+</table>
+<p>Creating a Volume object using presets</p>
+<p>A Volume component itself contains no actual data. Instead, it references a <strong>Volume Profile</strong>, a ScriptableObject Asset on disk that contains HDRP settings to render the scene.</p>
+<p>The Light Explorer (<strong>Window &gt; Rendering &gt; Light Explorer &gt; Volumes</strong>) can help you locate the volumes in the loaded scenes. Use this interface to make quick adjustments.</p>
+<table>
+<thead>
+<tr>
+<th>Isolate Selection Show Inactive Objects</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>0</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enabled Name</td>
+<td></td>
+<td>Mode</td>
+<td></td>
+<td>Priority</td>
+<td>Volume Profile</td>
+<td>Has Visual Environment Sky Type</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Fog</td>
+<td>Volumetric</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Volume Room 2 Skylight</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom2Skylight (Volı ⊙</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V</td>
+<td>Volume Global</td>
+<td>Global</td>
+<td></td>
+<td>O</td>
+<td>VolumeGlobal (Volume Prof O</td>
+<td>V</td>
+<td></td>
+<td>HDRI SK ▼</td>
+<td></td>
+<td>V</td>
+<td>V</td>
+</tr>
+<tr>
+<td>V</td>
+<td>Volume Room 3 Sitting</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom3Sitting (Volur O</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V</td>
+<td>Volume Room 3 Corridor</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom3Corridor (Volt O</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td>V</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Volume Room 1</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom1 (Volume Prof O</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V</td>
+<td>Volume Room 2</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom2 (Volume Pro1 ⊙</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Volume Room 3</td>
+<td>Local</td>
+<td></td>
+<td></td>
+<td>VolumeRoom3 (Volume Prof ⊙</td>
+<td></td>
+<td></td>
+<td>None</td>
+<td></td>
+<td>V</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The Light Explorer can list all the Volumes in the open Scene(s).</p>
+<ol>
+<li>Each Volume Profile begins with a set of default properties. To edit their values, use Volume Overrides and customize the individual settings. For example, Volumes Overrides could modify the Volume&#39;s Fog, Postprocessing, or Exposure.</li>
+</ol>
+<p>Adding overrides is a key workflow in HDRP. If you understand the concept of inheritance from programming, Volume Overrides will seem familiar to you.</p>
+<p>The higher-level Volume settings serve as the defaults for lower-level Volumes. Here, the HDRP Default Settings pass down to the global Volume. This, in turn, serves as the &quot;base&quot; for the local Volumes.</p>
+<table>
+<thead>
+<tr>
+<th>V V Volume</th>
+<th></th>
+<th></th>
+<th>@ 花</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode</td>
+<td>Global</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Weight</td>
+<td></td>
+<td></td>
+<td>● 1</td>
+<td></td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Profile</td>
+<td>VolumeGlobal (Volume Profile)</td>
+<td></td>
+<td>· New<br>Clone</td>
+<td></td>
+</tr>
+<tr>
+<td>4<br>✓ Visual Environment</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td>3</td>
+</tr>
+<tr>
+<td>A<br>&gt; HDRI Sky</td>
+<td></td>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>4<br>√ Tonemapping</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>A<br>&gt; Exposure</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>J Fog<br>D</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>A<br>✓ Shadows</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td>:</td>
+</tr>
+<tr>
+<td>✓ Contact Shadows<br>A</td>
+<td></td>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td>V Ambient Occlusion<br>A</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>A<br>V Bloom</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>A<br>V Motion Blur<br>4</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td></td>
+</tr>
+<tr>
+<td>✓ Film Grain<br>A</td>
+<td></td>
+<td></td>
+<td>@<br>9</td>
+<td></td>
+</tr>
+<tr>
+<td>V Screen Space Refraction</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Add Override</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ಡ</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Volume Overrides</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Lighting</td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Material</td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Post-processing</td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Ray Tracing</td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Shadowing</td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sky</td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Add HDRP features using Volume Overrides.</p>
+<p>The Global Volume overrides the HDRP Default Settings. The Local Volumes, in turn, override the Global Volume. Use the <strong>Priority</strong>, <strong>Weight</strong>, and <strong>Blend Distance</strong> (outlined below) to resolve any conflicts from overlapping Volumes. To debug the current values of a given Volume component, you can use the Volume tab in the Rendering Debugger.</p>
+<table>
+<thead>
+<tr>
+<th>Sequences<br>. Lighting</th>
+<th>Debug</th>
+<th></th>
+<th></th>
+<th><br>Reset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Volume</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>HDRPGraph</td>
+<td>Component<br>Camera</td>
+<td></td>
+<td>Fog<br>MainCamera</td>
+<td>V<br>4</td>
+</tr>
+<tr>
+<td>Decals</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Material</td>
+<td>Parameter<br>Volume Info</td>
+<td>Interpolated Value</td>
+<td>/_And_Fog (Mich-L_Sky_and_Fog_Settings_Profi<br>Global (100%)</td>
+<td>Default Value</td>
+</tr>
+<tr>
+<td>Lighting</td>
+<td>Albedo<br>Anisotropy</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Volume</td>
+<td>Base Height</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td>Color</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rendering</td>
+<td>Color Mode</td>
+<td>ConstantColor</td>
+<td>ConstantColor</td>
+<td>SkyColor</td>
+</tr>
+<tr>
+<td></td>
+<td>Denoising Mode</td>
+<td>Gaussian</td>
+<td>Gaussian</td>
+<td>Gaussian</td>
+</tr>
+<tr>
+<td>Scene Camera</td>
+<td>Depth Extent</td>
+<td>30</td>
+<td>30</td>
+<td>64</td>
+</tr>
+<tr>
+<td>MainCamera</td>
+<td>Directional Lights Only</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Enabled</td>
+<td>&gt;</td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>Camera_to_GameScre</td>
+<td>Volumetric Fog</td>
+<td>&gt;</td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Filter</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Ambient Light Probe Dimmer</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>Fog Control Mode</td>
+<td>Balance</td>
+<td>Balance</td>
+<td>Balance</td>
+</tr>
+<tr>
+<td></td>
+<td>Resolution Depth Ratio</td>
+<td>0.666</td>
+<td>0.666</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td></td>
+<td>Volumetric Fog Budget</td>
+<td>0.33</td>
+<td>0.33</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td></td>
+<td>Max Fog Distance</td>
+<td>10</td>
+<td>10</td>
+<td>5000</td>
+</tr>
+<tr>
+<td></td>
+<td>Maximum Height</td>
+<td>7.92</td>
+<td>7.92</td>
+<td>50</td>
+</tr>
+<tr>
+<td></td>
+<td>Fog Attenuation Distance</td>
+<td>100</td>
+<td>100</td>
+<td>400</td>
+</tr>
+<tr>
+<td></td>
+<td>Mip Fog Far</td>
+<td>1000</td>
+<td></td>
+<td>1000</td>
+</tr>
+<tr>
+<td></td>
+<td>Mip Fog Max Mip</td>
+<td>0.5</td>
+<td></td>
+<td>0.5</td>
+</tr>
+<tr>
+<td></td>
+<td>Mip Fog Near</td>
+<td>0</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td>Quality</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>Screen Resolution Percentage</td>
+<td>12.5</td>
+<td></td>
+<td>12.5</td>
+</tr>
+<tr>
+<td></td>
+<td>Slice Distribution Uniformity</td>
+<td>1</td>
+<td>1</td>
+<td>0.75</td>
+</tr>
+<tr>
+<td></td>
+<td>Tint</td>
+<td></td>
+<td></td>
+<td>HDR</td>
+</tr>
+<tr>
+<td></td>
+<td>Volume Slice Count</td>
+<td>64</td>
+<td></td>
+<td>64</td>
+</tr>
+</tbody>
+</table>
+<p>Debugging a Volume</p>
+<p>You can find a complete Volume Overrides List in the HDRP documentation.</p>
+<ol>
+<li>Baked global illumination (GI) pre-computes light interactions within a scene and stores the results as textures called lightmaps. When developing for mobile platforms, this is often a common strategy for adding realistic lighting to the game environment. When baking lighting, the intensive computations are performed offline, just once.</li>
+</ol>
+<p>Optimizing Baked GI is a strategic balance of visual quality with computational efficiency and memory management.</p>
+<p>Here&#39;s a general list of tips for lightmapping:</p>
+<ul>
+<li><strong>Lightmap Resolution:</strong> Higher resolutions capture more detail but increase memory usage. Prioritize larger resolutions for hero objects, and reduce the resolutions for elements in the background.</li>
+<li><strong>Don&#39;t waste texels.</strong> Small or thin objects, like pebbles or wires, can disproportionately use lightmap resources. Disable <strong>Contribute Global Illumination</strong> in either the Static menu or MeshRenderer to exclude those objects from GI calculations unless they significantly influence scene lighting (e.g., are brightly colored or have emissive materials).</li>
+</ul>
+<p><img src="_page_61_Picture_0.jpeg" alt=""></p>
+<p>Don&#39;t waste texels on small or thin objects.</p>
+<ul>
+<li><strong>Sampling:</strong> The number of samples directly influences the light bake&#39;s quality. More samples yield richer lighting details but extend bake times.</li>
+<li><strong>Denoising:</strong> In certain conditions like low lighting, baking can introduce visual noise. Choose <strong>Auto</strong> to allow HDRP to choose a denoising algorithm automatically. Otherwise, select <strong>Advanced</strong> to select the Direct Denoiser and Indirect Denoiser.</li>
+<li><strong>Lightmap Compression:</strong> Compression techniques can decrease memory usage but with a potential minor loss in quality.</li>
+<li><strong>Anti-aliasing:</strong> To optimize performance, consider reducing the antialiasing level. For instance, switch from 8x Multi Sampling to 2x Multi Sampling in <strong>Project Settings &gt; Quality</strong>.</li>
+<li><ol>
+<li>You can choose between two backends for the Progressive Lightmapper, run on the CPU or the GPU. The Progressive GPU Lightmapper accelerates the generation of baked lightmaps with your computer&#39;s GPU and Dedicated Video Ram (VRAM).</li>
+</ol>
+</li>
+</ul>
+<p>When using the GPU Lightmapper, consider these suggestions to optimize bake speed:</p>
+<ul>
+<li>Close other GPU-accelerated applications, especially those that use VRAM</li>
+<li>Switch to a CPU-based denoiser, like Intel Open Image, to free up VRAM</li>
+<li>If you have multiple GPUs, allocate one for rendering and another for baking</li>
+<li>Reduce the number of Anti-aliasing samples, especially for lightmap sizes of 4096 or above</li>
+</ul>
+<p>See <a href="https://docs.unity3d.com/Manual/progressive-lightmapper.html">this documentation page</a> for more information.</p>
+<h3 id="-span-id-page-62-0-span-developer-workflows"><span id="page-62-0"></span>Developer workflows</h3>
+<p>There are always small but helpful shortcuts and tips that even long-time Unity developers can benefit from. Whether it&#39;s a small Property Attribute attached to a script variable or a handy but often-overlooked Editor setting, we&#39;re sure that you&#39;ll find plenty here to speed up your workflows.</p>
+<p>Developer quality-of-life improvements are key to being more efficient and productive in your day-to-day activities. More of Unity is now taking advantage of Burst, giving you shorter iteration times, improved debugging insights, and a more responsive Inspector.</p>
+<p>Async and await constructs now give you more efficient asynchronous programming, and you&#39;ll find it faster to get in and out of Play mode, resulting in more coding and less waiting.</p>
+<h4 id="attributes">Attributes</h4>
+<p>Unity has a variety of Attributes that can be placed above a class, property, or function to indicate special behavior such as creating headers, spacing or ranged fields in the inspector.</p>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+<th>Example</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SerializeField</td>
+<td>This forces Unity to serialize a private<br>field and makes it visible in the<br>Inspector.</td>
+<td>[SerializeField]<br>private GameObject myObject;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Range</td>
+<td>This attribute takes a float or int variable<br>restricted to a specific range. The field<br>appears as a slider in the Inspector.</td>
+<td>[Range(1,6)]<br>public int integerRange;<br>[Range(0.2f, 0.8f)]<br>public float floatRange;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>HideInInspector</td>
+<td>This makes a variable not appear in the<br>Inspector but be serialized.</td>
+<td>[HideInInspector]<br>public int p = 5;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RequireComponent</td>
+<td>This automatically adds required<br>components as dependencies to avoid<br>setup errors.<br>Note: This attribute only checks the<br>moment that the Component is added to<br>a GameObject.</td>
+<td>// PlayerScript requires the GameObject<br>o have a Rigidbody<br>[RequireComponent(typeof(Rigidbody))]<br>public class PlayerScript: Monobehaviour<br>{<br>private Rigidbody rBody;<br>void Start()<br>{<br>rBody = GetComponent<Rigidbody>();<br>}<br>}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tooltip</td>
+<td>This shows a tooltip when the user<br>hovers a mouse over a field in the<br>Inspector.</td>
+<td>public class PlayerScript: Monobehaviour<br>{<br>[Tooltip(&quot;Health value between 0 and<br>100.&quot;)]<br>int health = 0;<br>}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Space</td>
+<td>This adds a small space between your<br>fields (without any additional text) to<br>create visual separation between your<br>fields.</td>
+<td>[Space(10)] // 10 pixel of spacing added<br>int p = 5;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Header</td>
+<td>This adds some bold text and spacing<br>to help organize your variables in the<br>Inspector. Only add this to the first field<br>that you want to belong to the group.</td>
+<td>public class PlayerScript: Monobehaviour<br>{<br>[Header(&quot;Health Settings&quot;)]<br>public int health = 0;<br>public int maxHealth = 100;<br>[Header(&quot;Shield Settings&quot;)]<br>public int shield = 0;<br>public int maxShield = 0;<br>}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Multiline</td>
+<td>This makes the string editable with the<br>multiline text field. Pass in an optional int<br>to designate the number of lines.<br>Tip: Use this for annotating scripts with<br>notes to yourself or another user.</td>
+<td>[Multiline]<br>public string textToEdit;<br>[Multiline(20)]<br>public string moreTextToEdit;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><span id="page-64-0"></span></p>
+<table>
+<thead>
+<tr>
+<th>SelectionBase</th>
+<th>This is useful for selecting an otherwise<br>empty GameObject whose children<br>may contain meshes. Add the attribute<br>to any component on the base object.<br>When picking objects in the Editor,<br>the GameObject containing the<br>[SelectionBase] attribute gets selected<br>rather than the children.</th>
+<th>// add this to the base GameObject<br>[SelectionBase]<br>public class PlayerScript: Monobehaviour<br>{<br>}</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>---------------</td>
+<td>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</td>
+<td>-------------------------------------------------------------------------------------------------------------</td>
+</tr>
+</tbody>
+</table>
+<p>This is just a small sample of the numerous Attributes. Do you want to <a href="https://docs.unity3d.com/ScriptReference/Serialization.FormerlySerializedAsAttribute.html?">rename</a>  <a href="https://docs.unity3d.com/ScriptReference/Serialization.FormerlySerializedAsAttribute.html?">your variables without losing their values</a>? O<a href="https://docs.unity3d.com/ScriptReference/RuntimeInitializeOnLoadMethodAttribute.html?">r invoke some logic without needing</a>  <a href="https://docs.unity3d.com/ScriptReference/RuntimeInitializeOnLoadMethodAttribute.html?">an empty GameObject?</a> See the Scripting API for a complete list of <a href="https://docs.unity3d.com/ScriptReference/AddComponentMenu.html?">Attributes</a> for everything that&#39;s possible.</p>
+<p>You can even create your own <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a> to define custom Attributes for your script variables.</p>
+<h4 id="custom-windows-and-inspectors">Custom windows and Inspectors</h4>
+<p>One of Unity&#39;s most powerful features is its extensible Editor. We recommend that you use the <a href="https://docs.unity3d.com/Packages/com.unity.ui.builder@1.0/manual/index.html">UI Toolkit</a> package to create Editor UIs such as custom windows and Inspectors (you can also use the immediate <a href="https://docs.unity3d.com/2022.3/Documentation/ScriptReference/UnityEngine.IMGUIModule.html?">mode IMGUI</a>)</p>
+<p>UI Toolkit has a workflow similar to standard web development. Use its HTML and XML inspired markup language, <strong>UXML</strong>, to define user interfaces and reusable UI templates. Then, apply <strong>Unity Style Sheets (USS)</strong> to modify the visual style and behaviors of your UIs.</p>
+<p>Alternatively, you can use immediate mode IMGUI. Derive from the <strong><a href="https://docs.unity3d.com/ScriptReference/Editor.html?">Editor</a></strong> base class, then use the <strong>CustomEditor</strong> attribute.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>O Inspector</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>a :</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>V</td>
+<td>GameObject</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Static ▼</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+<td></td>
+<td></td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Tag Untagged</td>
+<td></td>
+<td>Layer Default</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2<br>A</td>
+<td></td>
+<td>Transform</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>#<br>2</td>
+<td></td>
+<td>V My Player (Script)</td>
+<td></td>
+<td></td>
+<td>@</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Damage</td>
+<td></td>
+<td></td>
+<td></td>
+<td>35</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Damage</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Armor</td>
+<td></td>
+<td></td>
+<td></td>
+<td>75</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Armor</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Gun Object</td>
+<td></td>
+<td>None (Game Object)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Add Component</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Either solution can make a <strong><a href="https://docs.unity3d.com/ScriptReference/Editor.html?">custom Inspector</a></strong>.</p>
+<p>A custom Editor modifies how the MyPlayer script displays in the Inspector.</p>
+<p>See <strong><a href="https://docs.unity3d.com/Manual/UIToolkits.html?">Creating user interfaces (UI)</a></strong> for more detail on how to implement custom Editor scripts using either UI Toolkit or IMGUI. For a quick introduction to <strong>UI Toolkit</strong>, watch the <strong><a href="https://www.youtube.com/watch?v=mTjYA3gC1hA">Getting Started with Editor Scripting</a></strong> tutorial.</p>
+<h4 id="-span-id-page-65-0-span-custom-menus"><span id="page-65-0"></span>Custom menus</h4>
+<p>Unity includes a simple way to customize Editor menus and menu items, the <strong>MenuItem</strong> Attribute. You can apply this to any static method in your scripts.</p>
+<p>If you have functions for your project that you will use frequently, organize them into menu items. This allows you to build a basic user interface with just a single PropertyAttribute modifier.</p>
+<p><img src="_page_65_Figure_3.jpeg" alt=""></p>
+<p>The MenuItem Attribute creates a simple interface to attach the static method (Take Screenshot).</p>
+<h4 id="enter-play-mode-settings">Enter Play Mode settings</h4>
+<p>When you enter Play Mode, your project starts and runs as it would in a build. Any changes you make in the Editor during Play Mode reset when you exit Play Mode.</p>
+<p>Each time that you enter Play Mode in the Editor, Unity performs two significant actions:</p>
+<ul>
+<li><strong>Domain Reload:</strong> Unity backs up, unloads, and recreates scripting states.</li>
+<li><strong>Scene Reload:</strong> Unity destroys the Scene and loads it again.</li>
+</ul>
+<p>These two actions take more and more time as your scripts and Scenes become more complex.</p>
+<p>If you don&#39;t plan on making any more script changes, the <strong>Enter Play Mode Settings (Edit &gt; Project Settings &gt; Editor)</strong> can save you a bit of compile time. Unity gives you the option to disable either Domain Reload, Scene Reload, or both. This can speed up entering and exiting Play Mode.</p>
+<p><span id="page-66-0"></span>Just remember that if you <em>do</em> plan on making further script changes, you need to re-enable Domain Reload. Likewise, if you modify the Scene Hierarchy, you should re-enable Scene Reload. Otherwise, unexpected behavior could result.</p>
+<p><img src="_page_66_Figure_1.jpeg" alt=""></p>
+<p>The effects of disabling the Reload Domain and Reload Scene settings.</p>
+<h4 id="enter-play-mode-optimizations">Enter Play Mode optimizations</h4>
+<p>In Unity 2022 LTS, the Enter Play Mode performance is optimized to speed up iteration times. This improvement includes faster scene saving, increased use of multi-threading to speed up static batching and particle prewarming, and a reduced cost on some package initialization times (e.g., TerrainTools and Visual Studio packages).</p>
+<h4 id="script-templates">Script templates</h4>
+<p>Do you find that you make the same changes every time you create a new script? Do you instinctively add a namespace or delete the update event function? Save yourself a few keystrokes and create consistency across the team by setting up the script template for your preferred starting point.</p>
+<p>Every time you create a new script or shader, Unity uses a template stored in <strong>%EDITOR_PATH%\Data\Resources\ScriptTemplates</strong>:</p>
+<ul>
+<li>Windows: <em>C:\Program Files\Unity\Editor\Data\Resources\ScriptTemplates</em></li>
+<li>Mac: <em>/Applications/Hub/Editor/[version]/Unity/Unity.app/Contents/ Resources/ScriptTemplates</em></li>
+</ul>
+<p>The default Monobehaviour template is this one: <strong>81-C# Script-NewBehaviourScript.cs.txt</strong></p>
+<p>There are also templates for shaders, other behavior scripts, and assembly definitions.</p>
+<p>For project-specific script templates, create an <strong>Assets/ScriptTemplates</strong> folder. Copy the script templates into this folder to override the defaults.</p>
+<p>You can also modify the default script templates directly for all projects, but make sure that you backup the originals before making any changes.</p>
+<p>The original <strong>81-C# Script-NewBehaviourScript.cs.txt</strong> file looks like this:</p>
+<pre><code>using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+#ROOTNAMESPACEBEGIN#
+public <span class="hljs-keyword">class</span> #SCRIPTNAME# : MonoBehaviour
+{
+ <span class="hljs-comment">// Start is called before the first frame update</span>
+ void Start()
+ {
+ #NOTRIM#
+ }
+ <span class="hljs-comment">// Update is called once per frame</span>
+ void Update()
+ {
+ #NOTRIM#
+ }
+}
+#ROOTNAMESPACEEND#
+</code></pre><p>There are two keywords that may be helpful to you:</p>
+<ul>
+<li><strong>#SCRIPTNAME#</strong> indicates the filename entered or the default filename (for example, NewBehaviourScript).</li>
+<li><strong>#NOTRIM#</strong> ensures that the brackets contain a line of whitespace.</li>
+</ul>
+<p>For example, you may want to set up the default Monobehaviour to have default regions in order to stay organized:</p>
+<pre><code><span class="hljs-comment">/*
+ * Modified template by Unity Support.
+ */</span>
+<span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> #SCRIPTNAME# : MonoBehaviour
+{
+ <span class="hljs-meta">#region Public Fields</span>
+ <span class="hljs-meta">#endregion</span>
+ <span class="hljs-meta">#region Unity Methods</span>
+ <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Start</span><span class="hljs-params">()</span>
+ </span>{
+ }
+ <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Update</span><span class="hljs-params">()</span>
+ </span>{
+ }
+ <span class="hljs-meta">#endregion</span>
+ <span class="hljs-meta">#region Private Methods</span>
+ <span class="hljs-meta">#endregion</span>
+}
+</code></pre><p><span id="page-68-0"></span>Relaunch the Unity Editor, and your changes should appear every time you create a custom Monobehaviour.</p>
+<p>Modify the other templates in a similar fashion. Remember to keep a copy of your original and modifications somewhere outside the Unity project for safekeeping.</p>
+<h4 id="addressables">Addressables</h4>
+<p>The <a href="https://docs.unity3d.com/Packages/com.unity.addressables@1.21/manual/index.html">Addressable Asset System</a> simplifies how you manage the assets that make up your game. Any asset, including Scenes, Prefabs, text assets, and so on, can be marked as &quot;addressable&quot; and given a unique name. You can call this alias from anywhere.</p>
+<p>Adding this extra level of abstraction between the game and its assets can streamline certain tasks, such as creating a separate downloadable content pack. This system makes referencing those asset packs easier as well, whether they&#39;re local or remote.</p>
+<p><img src="_page_68_Picture_5.jpeg" alt=""></p>
+<p>In this example, Addressables tracks the inventory of Prefabs.</p>
+<p>To begin, install the Addressables package from the Package Manager, and add some basic settings to the project. Each asset or Prefab in the project should have the option to be made &quot;addressable&quot; as a result. Checking the option under an asset&#39;s name in the Inspector assigns it a default unique address.</p>
+<p><img src="_page_69_Picture_1.jpeg" alt=""></p>
+<p>Addressable option enabled with default Addressable Name</p>
+<p>Once marked, the corresponding assets appear in the <strong>Window &gt; Asset Management &gt; Addressables &gt; Groups</strong> window.</p>
+<table>
+<thead>
+<tr>
+<th># Scene</th>
+<th>Co Profiler</th>
+<th>Memory Profiler</th>
+<th>Addressables Groups</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Create · Profile: Default · Tools ·</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Play Mode Script ▼ Build ▼ Q.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Group Name \ Addressable Name</td>
+<td></td>
+<td></td>
+<td>Path</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Built In Data</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Inventory Items (Default)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Assets/Weapons/Prefabs/BossSword.prefab</td>
+<td>6</td>
+<td></td>
+<td>Assets/Weapons/Prefabs/BossSword.prefab</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Assets/Weapons/Prefabs/Shield.prefab</td>
+<td>8</td>
+<td></td>
+<td>Assets/Weapons/Prefabs/Shield.prefab</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Assets/Weapons/Prefabs/Sword.prefab</td>
+<td>7</td>
+<td></td>
+<td>Assets/Weapons/Prefabs/Sword.prefab</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In Addressables Groups, you can see each asset&#39;s custom address, paired with its location.</p>
+<p>For convenience, you can either rename each address in the asset&#39;s individual Address field or simplify them at once.</p>
+<p>Simplify the Addressable Names with a single menu action, or rename them individually.</p>
+<table>
+<thead>
+<tr>
+<th>C</th>
+<th></th>
+<th>Addressables Groups</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Addressables Groups</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Create ▼ Profile: Default ▼ Tools▼</td>
+<td></td>
+<td>Play Mode Script ▼ Build ▼ 9.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Group Name \ Addressable &amp; Path</td>
+<td></td>
+<td></td>
+<td>New Build</td>
+<td>Default Build Script</td>
+</tr>
+<tr>
+<td>Built In Data</td>
+<td></td>
+<td></td>
+<td>Update a Previous Build<br>Clean Build</td>
+<td></td>
+</tr>
+<tr>
+<td>V Inventory Items (Default)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BossSword<br>ALL-1-1</td>
+<td>17</td>
+<td>Assets/Weapons/Prefabs/BossSword.prefab<br>Comments of Children College of Control Concession of Concession Comers of</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Use the default build script to generate an Addressable Group asset bundle.</p>
+<p>Bundle these assets to be hosted on a server elsewhere or distribute them locally with your project. Wherever each asset resides, the system will locate it using the Addressable Name string.</p>
+<p>You can now use your addressable assets using the Addressables API.</p>
+<p>For example, without Addressables, if you wanted to instantiate a Prefab in your scene, you might do this:</p>
+<pre><code><span class="hljs-keyword">public</span> GameObject prefabToCreate;
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">CreatePrefab</span><span class="hljs-params">()</span> 
+</span>{
+ GameObject.Instantiate(prefabToCreate);
+}
+</code></pre><p>The disadvantage here is that any referenced Prefab (like prefabToCreate) would load into memory, even if the scene didn&#39;t require it.</p>
+<p>Using Addressables, you could instead do this:</p>
+<pre><code><span class="hljs-keyword">public</span> <span class="hljs-built_in">string</span> prefabByAddress;
+… 
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">CreatePrefabWithAddress</span><span class="hljs-params">()</span> 
+</span>{
+ Addressables.Instantiate(prefabByAddress, instantiationPa-
+rameters, <span class="hljs-keyword">bool</span>);
+}
+</code></pre><p>This loads the asset by its address string. The Prefab does not load into memory until it&#39;s needed (when we invoke Adressables.Instantiate inside CreatedPrefabWithAddress). In addition, <a href="https://blogs.unity3d.com/2019/07/15/addressable-asset-system/?utm_source=demand-gen&amp;utm_medium=pdf&amp;utm_campaign=asset-links-gmg-choose-unity-for-multiplatform&amp;utm_content=improving-workflows-unity-2020-lts-ebook">Addressables</a> provides high-level reference counting and automatically unloads bundles and their associated assets when they&#39;re no longer in use.</p>
+<p><strong><a href="https://blog.unity.com/technology/tales-from-the-optimization-trenches-saving-memory-with-addressables">Tales from the Optimization Trenches: Saving Memory with Addressables</a></strong>  offers an example of how to organize your Addressable Groups to be more memory efficient. You can also check out the <strong><a href="https://learn.unity.com/tutorials#5fade876edbc2a00225e815a?">Addressables: Introduction to</a>  <a href="https://learn.unity.com/tutorials#5fade876edbc2a00225e815a?">Concepts</a></strong> tutorial for a quick overview of how the Addressable Asset system can work in your project.</p>
+<h4 id="-operating-live-games-cloud-content-delivery-with-addressables-"><strong>Operating live games: Cloud Content Delivery with Addressables</strong></h4>
+<p>If you are operating a live game, then you might want to consider using Unity&#39;s Cloud Content Delivery (CCD) solution with Addressables. The Addressables system stores and catalogs game assets so that they can be automatically found and called, and then CCD pushes those assets directly to your players, completely separate from your code. This reduces your build size and eliminates the need to have your players download and install new game versions whenever you want to make an update. To learn more, read this <a href="https://blog.unity.com/engine-platform/your-questions-cloud-content-delivery-and-addressables">blog post</a> on the integration between Addressables and Cloud Content Delivery.</p>
+<h4 id="-span-id-page-71-0-span-preprocessor-directives"><span id="page-71-0"></span>Preprocessor directives</h4>
+<p>The <a href="https://docs.unity3d.com/Manual/PlatformDependentCompilation.html?">Platform Dependent Compilation</a> feature allows you to partition your scripts to compile and execute code for a specifically targeted platform.</p>
+<p>This example makes use of the existing platform <strong>#define</strong> directives with the <strong>#if</strong>  compiler directive:</p>
+<pre><code><span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">using</span> System.Collections;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">PlatformDefines</span> : <span class="hljs-title">MonoBehaviour</span> 
+{
+ <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Start</span> (<span class="hljs-params"></span>) 
+ </span>{
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">if</span> UNITY_EDITOR</span>
+ Debug.Log(<span class="hljs-string">"Unity Editor"</span>);
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">if</span> UNITY_IOS</span>
+ Debug.Log(<span class="hljs-string">"Iphone"</span>);
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">if</span> UNITY_STANDALONE_OSX</span>
+ Debug.Log(<span class="hljs-string">"Stand Alone OSX"</span>);
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">if</span> UNITY_STANDALONE_WIN</span>
+ Debug.Log(<span class="hljs-string">"Stand Alone Windows"</span>);
+ <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
+ } 
+}
+</code></pre><p>Use the <strong>DEVELOPMENT_BUILD</strong> #define to identify whether your script is running in a player which was built with the <strong>Development Build</strong> option.</p>
+<p>You can also compile selectively for specific Unity versions and/or scripting backends.</p>
+<p>You can supply your own custom #define directives when testing in the Editor. Open the <strong>Other Settings</strong> panel of the <a href="https://docs.unity3d.com/Manual/class-PlayerSettings.html?">Player</a> settings, and navigate to <strong>Scripting Define Symbols</strong>.</p>
+<p><img src="_page_71_Figure_7.jpeg" alt=""></p>
+<p>See <a href="https://docs.unity3d.com/Manual/PlatformDependentCompilation.html?">Platform Dependent Compilation</a> for more information about Unity&#39;s preprocessor directives.</p>
+<h4 id="-span-id-page-72-0-span-scriptableobjects"><span id="page-72-0"></span>ScriptableObjects</h4>
+<p>A ScriptableObject is a data container that saves large amounts of data, independent of class instances. ScriptableObjects can reduce your project&#39;s memory usage by avoiding copies of values.</p>
+<p>ScriptableObjects can help promote clean coding practices by separating data from logic. This means it&#39;s easier to make changes without causing unintended side effects, which improves testability and modularity. They&#39;re also useful when you&#39;re collaborating with non-programmers like artists and designers.</p>
+<p>Let&#39;s use the example of a project that has a p<a href="https://docs.unity3d.com/Manual/Prefabs.html?">refab</a> that stores unchanging data in an attached MonoBehaviour script. Unlike with MonoBehaviours, the data saved to ScriptableObjects is written to disk as an asset and not attached to a GameObject. Thus, it can persist between sessions.</p>
+<p><em>Dragon Crashers</em> demonstrates a typical use case. A UnitInfoData class inherits from <strong>ScriptableObject</strong>. Each of its instances contains the unit&#39;s name, sprite, and health settings. This data remains constant over the course of gameplay, making it especially suitable for storage inside a ScriptableObject.</p>
+<p><img src="_page_72_Picture_5.jpeg" alt=""></p>
+<p>A ScriptableObject defines a data container object.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>Utilities</th>
+<th>P</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Dragon Crashers</td>
+<td>A</td>
+<td>Unit</td>
+<td>D</td>
+<td>Info Data</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Folder</td>
+<td></td>
+<td></td>
+<td></td>
+<td>SFX Data<br>Ability Data</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>C# Script<br>2D<br>Shader<br>Testing<br>Playables<br>Assembly Definition</td>
+<td>D<br>D<br>D<br>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Project<br>Game</td>
+<td></td>
+<td></td>
+<td></td>
+<td>a :</td>
+<td>Assembly Definition Reference</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+ ▼<br>ರ್</td>
+<td></td>
+<td>re</td>
+<td>0</td>
+<td>\$30</td>
+<td>TextMeshPro</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fonts<br>A<br>Gameplay<br>v Data<br>V Herces<br>V @ Knight<br>UnitData_Knight_Ability_BasicAttack<br>UnitData_Knight Ability_SpecialAttack<br>Q UnitData_Knight_Info_Jarek<br>Q UnitData_Knight_SFX</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Scene<br>Scene Template<br>Scene Template From Scene<br>Post-processing Profile<br>Volume Profile<br>Prefab<br>Prefab Variant</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>v @ Witch<br>On UnitData_Witch_Ability_Basic Attack</td>
+<td>Create</td>
+<td></td>
+<td></td>
+<td>b</td>
+<td>Audio Mixer</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>UnitData_Witch_Ability_SpecialAtta<br>Q UnitData_Witch_Info_Giorgia</td>
+<td>Open</td>
+<td>Reveal in Finder</td>
+<td></td>
+<td></td>
+<td>Rendering</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>OnitData_Witch_SFX<br>▼ @ Wolfman<br>UnitData_Wolfman_Ability_Basic Att.<br>Callaithata Walfaran Ability Sogniala</td>
+<td>Delete<br>Rename<br>Copy Path</td>
+<td></td>
+<td></td>
+<td>THEC</td>
+<td>Material<br>Lens Flare<br>Render Texture</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The CreateAssetMenu attribute generates a context menu item to help you generate an asset on disk. Each unit has additional ScriptableObjects for sound effects and special abilities.</p>
+<p>With the assets created in the project window, you can fill in the correct values using the Inspector: Unit Name, Unity Avatar (Sprite), and Total Health.</p>
+<p><img src="_page_73_Picture_1.jpeg" alt=""></p>
+<p>Use the Inspector to fill out values for the ScriptableObject asset. These values won&#39;t change during gameplay.</p>
+<p>A GameObject (like the UnitController in this case) can then reference the ScriptableObject asset. If the Scene suddenly fills with units, the data on the ScriptableObject asset does not duplicate, saving memory.</p>
+<p><img src="_page_73_Figure_4.jpeg" alt=""></p>
+<p>The Monobehaviour object (UnitController, shown above) refers to the ScriptableObject data asset in the project.</p>
+<p><span id="page-74-0"></span><img src="_page_74_Figure_0.jpeg" alt=""></p>
+<p>Save memory and stay organized with ScriptableObjects. Set static data and settings in the asset in the project just once, even if you have lots of GameObjects.</p>
+<p>Even if you add a thousand instances of a Prefab to your Scene, they still refer to the same data stored in your asset. Setting up the set of values just once guarantees consistency.</p>
+<p>As your game scales up with more unit types, simply create more ScriptableObject assets and swap them out appropriately. Maintain your gameplay data just by tweaking the centrally stored assets.</p>
+<p>ScriptableObjects don&#39;t replace keepin<a href="https://blog.unity.com/games/persistent-data-how-to-save-your-game-states-and-settings">g persistent data</a> for the rest of your application&#39;s save files, where the data may change during gameplay. It&#39;s a workflow suited more for storing your static gameplay settings and values. Unlike parsing data from JSON or XML, reading a ScriptableObject asset won&#39;t generate garbage (and, as a bonus, it&#39;s faster).</p>
+<h4 id="more-resources">More resources</h4>
+<ul>
+<li><a href="https://resources.unity.com/games/create-modular-game-architecture-with-scriptable-objects-ebook?ungated=true">Create modular game architecture with ScriptableObjects in Unity</a></li>
+<li><a href="https://github.com/UnityTechnologies/PaddleGameSO">ScriptableObjects Paddle Ball demo project</a></li>
+<li><a href="https://docs.unity3d.com/Manual/class-ScriptableObject.html?">ScriptableObject documentation</a></li>
+<li><a href="https://blog.unity.com/technology/achieve-better-scene-workflow-with-scriptableobjects">Achieve Better Scene Workflow with ScriptableObjects</a></li>
+</ul>
+<h4 id="-span-id-page-75-0-span-optimization-tip"><span id="page-75-0"></span>Optimization tip</h4>
+<p>You can use binary serialization formats such as <a href="https://msgpack.org/index.html">MessagePack</a> or <a href="https://developers.google.com/protocol-buffers">Protocol</a>  <a href="https://developers.google.com/protocol-buffers">Buffers</a> for saving data, rather than text-based ones such as JSON or XML. In Project Reviews, these binary serialization formats reduce the memory and performance issues associated with the latter.</p>
+<h4 id="managing-assemblies">Managing assemblies</h4>
+<p>An assembly is a C# code library, a collection of types and resources that are built to work together and form a logical unit of functionality. By default, Unity compiles almost all of your game scripts into the predefined assembly, <strong>Assembly-CSharp.dll</strong>. This works for small projects, but it has some drawbacks:</p>
+<ul>
+<li>Every time you change a script, Unity recompiles all other scripts;</li>
+<li>Any script can access types defined in any other script;</li>
+<li>All scripts are compiled for all platforms.</li>
+</ul>
+<p>Organizing your scripts into custom assemblies promotes modularity and reusability. It prevents them from getting added to the default assemblies automatically and limits which other scripts they can access.</p>
+<p>You might split up your code into multiple assemblies, as shown in the diagram above. Here, any changes to the code in Main cannot affect the code in Stuff.</p>
+<p><img src="_page_75_Figure_9.jpeg" alt=""></p>
+<p>The project split into multiple assemblies</p>
+<p>Similarly, because Library doesn&#39;t depend on any other assemblies, you can more easily reuse the code in Library in another project.</p>
+<p><a href="https://docs.microsoft.com/en-us/dotnet/standard/assembly/">Assemblies in .NET</a> has general information about assemblies in C#. Refer to <a href="https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html?">Assembly definitions</a> in the Unity documentation for more information about defining your own assemblies in Unity.</p>
+<h4 id="-span-id-page-76-0-span-ides-and-debugging"><span id="page-76-0"></span>IDEs and debugging</h4>
+<p>Unity offers support for the following integrated development environments <a href="https://docs.unity3d.com/Manual/ScriptingToolsIDEs.html?">(IDEs)</a>:</p>
+<ul>
+<li><strong>Visual Studio</strong> (default IDE on Windows and macOS)</li>
+<li><strong>Visual Studio Code</strong> (Windows, macOS, Linux)</li>
+<li><strong>JetBrains Rider</strong> (Windows, macOS, Linux)</li>
+</ul>
+<p>IDE integrations for all three of these environments appear as packages in the Package Manager.</p>
+<table>
+<thead>
+<tr>
+<th>Game<br>Package Manager</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Packages: In Project ▼ Sort: Name (asc) ▼ Filters▼ Clear Filters</td>
+<td></td>
+<td>an<br>a</td>
+</tr>
+<tr>
+<td>All<br>Services</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>@ Services Core</td>
+<td>1.12.2 V A</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp; Shader Graph</td>
+<td>14.0.10 V</td>
+<td>Visual Studio Editor<br>Remove</td>
+</tr>
+<tr>
+<td>Test Framework</td>
+<td>1.1.33 V</td>
+<td>2.0.22 · October 11, 2023<br>  Release</td>
+</tr>
+<tr>
+<td>TextMeshPro</td>
+<td>3.0.6 G</td>
+<td>From Unity Registry by Unity Technologies Inc.</td>
+</tr>
+<tr>
+<td>Timeline</td>
+<td>1.7.6 V</td>
+<td>com.unity.ide.visualstudio</td>
+</tr>
+<tr>
+<td>Unity Ul</td>
+<td>1.0.0 V</td>
+<td>Documentation Changelog<br>Licenses</td>
+</tr>
+<tr>
+<td>Universal RP</td>
+<td>14.0.10 V</td>
+<td>Description<br>Version History<br>Dependencies</td>
+</tr>
+<tr>
+<td>&amp; Universal RP Config</td>
+<td>14.0.9 V</td>
+<td></td>
+</tr>
+<tr>
+<td>Version Control</td>
+<td>2.2.0 V</td>
+<td>Code editor integration for supporting Visual Studio as code editor for<br>unity. Adds support for generating csproj files for intellisense purposes,</td>
+</tr>
+<tr>
+<td>Visual Scripting</td>
+<td>1.9.1 G</td>
+<td>auto discovery of installations, etc.</td>
+</tr>
+<tr>
+<td>Visual Studio Code Editor</td>
+<td>1.2.5 V</td>
+<td></td>
+</tr>
+<tr>
+<td>Visual Studio Editor</td>
+<td>2.0.22 V</td>
+<td></td>
+</tr>
+<tr>
+<td>Last update Apr 8, 09:23</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<p>IDE integrations as packages</p>
+<p>Visual Studio is installed by default when you install Unity on <strong>Windows</strong> and <strong>macOS</strong>. If you want to use another IDE, simply browse for the editor in <strong>Unity &gt; Preferences &gt; External Tools &gt; External Script Editor</strong>.</p>
+<p>Rider is built on top of <a href="https://www.jetbrains.com/resharper/">ReSharper</a> and includes most of its features. It supports C# debugging on the .NET 4.6 scripting runtime in Unity (C# 8.0). For more information, see JetBrains&#39;s documentation on <a href="https://www.jetbrains.com/dotnet/promo/unity/">Rider for Unity</a>.</p>
+<p>VS Code works with many available extensions to function as a full-scale IDE and is a popular code editor for web developers.</p>
+<p>You&#39;ll need to complete several steps to use VS Code in Unity.</p>
+<ul>
+<li><ol>
+<li>Download and install Visual Studio Code from its <a href="https://code.visualstudio.com/">website,</a> where you&#39;ll find versions for Windows, macOS, or Linux.</li>
+</ol>
+</li>
+<li><ol>
+<li>Get the Visual Studio Editor package for Unity. In the Package Manager window, <strong>be sure to install or, if you have an older version of the package, upgrade to version 2.0.20 or above</strong>.</li>
+</ol>
+</li>
+</ul>
+<p><strong>Note:</strong> The Visual Studio Editor package now handles the entire family of Visual Studio products. Don&#39;t confuse it with the package named Visual Studio Code Editor, which is no longer supported.</p>
+<p><span id="page-77-0"></span></p>
+<table>
+<thead>
+<tr>
+<th>.</th>
+<th></th>
+<th>Package Manager</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Package Manager</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+ ▼ Packages: In Project ▼ Sort: Name ↓▼</td>
+<td></td>
+<td>* a</td>
+</tr>
+<tr>
+<td>V Unity Technologies</td>
+<td></td>
+<td>Visual Studio Editor   Verified</td>
+</tr>
+<tr>
+<td>&gt; Cinemachine</td>
+<td>2.6.3 G</td>
+<td>Unity Technologies</td>
+</tr>
+<tr>
+<td>High Definition RP</td>
+<td>10.2.2 V</td>
+<td>Version 2.0.7 - February 11, 2021</td>
+</tr>
+<tr>
+<td>&gt; JetBrains Rider Editor</td>
+<td>2.0.7 V</td>
+<td>View documentation · View changelog · View licenses</td>
+</tr>
+<tr>
+<td>Memory Profiler<br>A</td>
+<td>0.2.8-preview.2 Preview   1</td>
+<td>Code editor integration for supporting Visual Studio as code editor for unity. Adds support for</td>
+</tr>
+<tr>
+<td>&gt; Quick Search</td>
+<td>202 V</td>
+<td>generating csproj files for intellisense purposes, auto discovery of installations, etc.</td>
+</tr>
+<tr>
+<td>Test Framework</td>
+<td>1.1.20 G</td>
+<td>Registry Unity</td>
+</tr>
+<tr>
+<td>TextMeshPro<br>A</td>
+<td>3.0.1 G</td>
+<td></td>
+</tr>
+<tr>
+<td>&gt; Timeline</td>
+<td>1.4.4 G</td>
+<td></td>
+</tr>
+<tr>
+<td>Unity Collaborate<br>A</td>
+<td>1.3.9 V</td>
+<td></td>
+</tr>
+<tr>
+<td>A<br>Unity Ul</td>
+<td>1.0.0 V</td>
+<td></td>
+</tr>
+<tr>
+<td>Visual Studio Code Editor<br>A</td>
+<td>1.2.3 V</td>
+<td></td>
+</tr>
+<tr>
+<td>Visual Studio Editor</td>
+<td>2.0.7 V</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Last update Apr 6, 16:10</td>
+<td>C -</td>
+<td>Remove</td>
+</tr>
+</tbody>
+</table>
+<p><img src="_page_77_Figure_1.jpeg" alt=""></p>
+<ul>
+<li><ol>
+<li>After installing VS Code and the Visual Studio Editor package, you&#39;ll need to set VS Code as the external script editor. Do this via <strong>Unity &gt; Preferences &gt; External Tools</strong> in the Editor. Under <strong>External Script Editor</strong>, choose <strong>Visual Studio Code</strong> from the drop-down menu. If VS Code doesn&#39;t appear in the list, click Browse and locate the VS Code executable on your system. The next time you open a C# file in Unity, Unity will open Visual Studio Code for you.</li>
+</ol>
+</li>
+<li><ol>
+<li>The next step is to install the Unity extension for Visual Studio Code, which provides a streamlined Unity development experience on Visual Studio Code. It builds on top of the rich C# capabilities provided by the C# Dev Kit and C# extensions as well as integrating natively with Visual Studio Code.</li>
+</ol>
+</li>
+</ul>
+<p>Go to the <a href="https://marketplace.visualstudio.com/items?itemName=visualstudiotoolsforunity.vstuc">Visual Studio Marketplace</a> for the extension. After you click to download it, a window will open prompting you to open it in the Visual Studio Code application. VS Code will then install the Unity extensions, including C# Dev Kit and C# extensions.</p>
+<p>Each IDE has its own productive merits. See <a href="https://docs.unity3d.com/Manual/ScriptingToolsIDEs.html?">Integrated development</a>  <a href="https://docs.unity3d.com/Manual/ScriptingToolsIDEs.html?">environment (IDE) support</a> for more information about choosing an IDE.</p>
+<h4 id="debugging">Debugging</h4>
+<p>The Unity Debugger allows you to debug your C# code while the Unity Entity is in Play Mode. You can attach breakpoints within the code editor in order to inspect the state of your script code and its current variables at runtime.</p>
+<p>Set the Code Optimization mode to <strong>Debug</strong> in the bottom right of the Unity Editor Status Bar. You can also change this mode on startup at <strong>Edit &gt; Preferences &gt; General &gt; Code Optimization On Startup</strong>.</p>
+<p><img src="_page_77_Picture_9.jpeg" alt=""></p>
+<p>Debug Mode</p>
+<p>In the code editor, set a breakpoint where you want the debugger to pause execution. Simply click over the left margin/gutter area where you want to toggle a breakpoint (or right-click there to use the context menu for more options). A red circle appears next to the line number of the highlighted line (see image below).</p>
+<p><img src="_page_78_Figure_1.jpeg" alt=""></p>
+<p>Toggling a breakpoint</p>
+<table>
+<thead>
+<tr>
+<th>Attach to Unity<br>● ● ● &gt;     Debug &gt;   √ Attach to Unity and Play</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;<br>ObjectPool.cs<br>×</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Assembly-CSharp.Player ▶ ✈ ObjectPool ▶ [[] Start()</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1<br>using System. Collections;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2<br>using System. Collections. Generic;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3<br>using UnityEngine;</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Select <strong>Attach to Unity</strong> in your code editor. In the Unity Editor, run the project.</p>
+<p>Attaching the Debugger to Unity</p>
+<p>In Play Mode, the application will pause at the breakpoint, giving you time to inspect variables and investigate any unintended behavior.</p>
+<table>
+<thead>
+<tr>
+<th>LO</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>17</td>
+<td>private void Start ( )</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td></td>
+<td>pooledObjects</td>
+<td>Count = 14</td>
+</tr>
+<tr>
+<td>19</td>
+<td>= ne</td>
+<td></td>
+<td>[0]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>20</td>
+<td>GameObject tmp;</td>
+<td></td>
+<td>[1]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>21</td>
+<td>for (int i = 0;</td>
+<td></td>
+<td>2</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>22</td>
+<td></td>
+<td></td>
+<td>(3)</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Instant<br>100</td>
+<td></td>
+<td>4</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>24</td>
+<td>tmp. SetActive</td>
+<td></td>
+<td>5</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>25</td>
+<td></td>
+<td>D</td>
+<td>ഗ്</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>[7]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>26</td>
+<td></td>
+<td>&gt;</td>
+<td>(8)</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td></td>
+<td>(a)</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>28</td>
+<td></td>
+<td></td>
+<td>[10]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td>29</td>
+<td></td>
+<td></td>
+<td>[11]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>A</td>
+<td>[12]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>P</td>
+<td>[13]</td>
+<td>&quot;PlayerLaser(Clone) (UnityEngine.GameObject)&quot;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Baw View</td>
+<td>Count = 14</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Debugging variables</p>
+<p>In the example above, you can inspect the variables when debugging, watching the list build up one step at a time during execution.</p>
+<p><img src="_page_79_Picture_4.jpeg" alt=""></p>
+<p>Debug controls: Continue Execution, Step Over, Step Into, and Step Out</p>
+<p>Use the <strong>Continue Execution</strong>, <strong>Step Over</strong>, <strong>Step Into</strong> and <strong>Step Out</strong> controls to navigate the control flow.</p>
+<p>Press <strong>Stop</strong> to discontinue debugging and resume execution in the Editor.</p>
+<p><img src="_page_79_Picture_8.jpeg" alt=""></p>
+<p>Debug controls: Stop</p>
+<p>You can debug script code in a Unity Player as well. Just make sure that <strong>Development Build</strong> and <strong>Script Debugging</strong> are both enabled in the <strong>File &gt; Build Settings</strong> before you build the Player. Check <strong>Wait for Managed Debugger</strong> to wait for the debugger before the Player executes any script code.</p>
+<p>To attach the code editor to the Unity Player, select the IP address (or machine name) and port of your player. Then proceed normally in Visual Studio with the <strong>Attach To Unity</strong> option.</p>
+<h4 id="-span-id-page-80-0-span-additional-debugging-tips"><span id="page-80-0"></span>Additional debugging tips</h4>
+<p>Unity also includes a <a href="https://docs.unity3d.com/Manual/class-Debug.html?">Debug</a> class to help you visualize information in the Editor while it is running. Use it to print messages or warnings into the Console window, draw visualization lines in the Scene view and Game view, and pause Play Mode in the Editor from script.</p>
+<ul>
+<li><ol>
+<li>Pause execution with <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.Break.html?">Debug.Break</a></strong>. This is useful if you want to check certain values in the Inspector when the application is difficult to pause manually.</li>
+</ol>
+</li>
+<li><ol>
+<li>You should be familiar with <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.Log.html?">Debug.Log</a></strong>, <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.LogWarning.html?">Debug.LogWarning</a></strong>, and <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.LogError.html?">Debug.</a> <a href="https://docs.unity3d.com/ScriptReference/Debug.LogError.html?">LogError</a></strong> for printing Console messages. Also handy is <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.Assert.html?">Debug.Assert</a></strong>, which asserts a condition and logs an error on failure (only works if UNITY_ ASSERTIONS symbol is defined).</li>
+</ol>
+</li>
+</ul>
+<p><img src="_page_80_Picture_4.jpeg" alt=""></p>
+<p>Log messages, warnings, and errors in the Console</p>
+<ul>
+<li><ol>
+<li>When using <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.Log.html?">Debug.Log</a></strong>, you can pass in an object as the context. If you click on the message in the Console, Unity highlights the GameObject in the Hierarchy window.</li>
+</ol>
+</li>
+<li><ol>
+<li>Use <a href="https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/StyledText.html">Rich Text</a> to mark up your <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.Log.html?">Debug.Log</a></strong> statements. This can help you enhance error reports in the Console.</li>
+</ol>
+</li>
+<li><ol>
+<li>Unity does not strip the <strong><a href="https://docs.unity3d.com/Manual/class-Debug.html?">Debug</a></strong> logging APIs from non-development builds automatically. Wrap your <strong>Debug Log</strong> calls in custom methods and decorate them with the <strong>[Conditional]</strong> attribute.</li>
+</ol>
+</li>
+</ul>
+<p>Removing the corresponding <strong>Scripting Define Symbol</strong> from the Player Settings compiles out the Debug Logs all at once. This is identical to wrapping them in <strong>#if… #endif</strong> preprocessor blocks.</p>
+<p>See this <a href="https://docs.unity3d.com/Manual/UnderstandingPerformanceGeneralOptimizations.html">General Optimizations</a> guide for an example.</p>
+<ol>
+<li>Troubleshooting physics? <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.DrawLine.html?">Debug.DrawLine</a></strong> and <strong><a href="https://docs.unity3d.com/ScriptReference/Debug.DrawRay.html?">Debug.DrawRay</a></strong> can help you visualize raycasting.</li>
+</ol>
+<p><img src="_page_81_Picture_1.jpeg" alt=""></p>
+<p>Debug.DrawLine</p>
+<ul>
+<li><ol>
+<li>If you only want code to run when <strong>Development Build</strong> is enabled, check if <strong><a href="https://docs.unity3d.com/ScriptReference/Debug-isDebugBuild.html?">Debug.isDebugBuild</a></strong> returns true.</li>
+</ol>
+</li>
+<li><ol>
+<li>Use <strong><a href="https://docs.unity3d.com/ScriptReference/Application.SetStackTraceLogType.html?">Application.SetStackTraceLogType</a></strong> or the equivalent checkboxes in PlayerSettings to decide which kinds of log messages should include stack traces. Stack traces can be useful, but they are slow and generate garbage.</li>
+</ol>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Stack Trace*</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Log Type</td>
+<td>None</td>
+<td>ScriptOnly</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>Error</td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>Assert</td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>Warning</td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>Log</td>
+<td></td>
+<td>&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>Exception</td>
+<td></td>
+<td>&gt;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="-span-id-page-82-0-span-visual-studio-shortcuts"><span id="page-82-0"></span>Visual Studio shortcuts</h4>
+<p>If you use Visual Studio as your IDE of choice, these shortcuts may prove useful.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Shortcut (Windows)</th>
+<th>Shortcut (macOS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Search your entire project for<br>anything.</td>
+<td>Ctrl + T</td>
+<td>Cmd + .</td>
+</tr>
+<tr>
+<td>Implement Unity Messages<br>(boilerplate code)</td>
+<td>Ctrl + Shift + M</td>
+<td>Cmd + Shift + M</td>
+</tr>
+<tr>
+<td>Comment out code blocks</td>
+<td>Ctrl + K / Ctrl + C</td>
+<td>Cmd + /</td>
+</tr>
+<tr>
+<td>Uncomment blocks of code</td>
+<td>Ctrl + K / Ctrl + U</td>
+<td>Cmd + /</td>
+</tr>
+<tr>
+<td>Copy from clipboard history</td>
+<td>Ctrl + Shift + V</td>
+<td></td>
+</tr>
+<tr>
+<td>View task list</td>
+<td>Ctrl + T</td>
+<td>No default keybinding,<br>but you can bind it.</td>
+</tr>
+<tr>
+<td>Insert a surrounding snippet<br>such as namespace</td>
+<td>Ctrl + K + S</td>
+<td>No default keybinding,<br>but you can bind it.</td>
+</tr>
+<tr>
+<td>Rename a variable while<br>updating all references</td>
+<td>Ctrl + R</td>
+<td>Cmd + R</td>
+</tr>
+<tr>
+<td>Compile the code</td>
+<td>Ctrl + Shift + B</td>
+<td>Cmd + Shift + B</td>
+</tr>
+</tbody>
+</table>
+<p>Watch <a href="https://www.youtube.com/watch?v=MBWc4oRBwiE">Visual Studio tips and tricks to boost your productivity</a> for more workflow improvements with Visual Studio.</p>
+<h4 id="device-simulator">Device Simulator</h4>
+<p> If you&#39;re developing for mobile and tablets, the <strong>Device Simulator</strong> can help you simulate your application on different devices. Even if you have physical access to all of your targeted hardware, building the content for each device can be time consuming.</p>
+<p><img src="_page_83_Picture_0.jpeg" alt=""></p>
+<p>The Simulator view</p>
+<p>Use the Simulator view to run a quick preview before you need to make an actual build. You can simulate specific resolutions or hardware conditions and adjust your UI to the physical notch/cutouts in Game view. When using the Simulator view, you can switch between different screens for devices with multiple screens.</p>
+<table>
+<thead>
+<tr>
+<th>· · () [ [ ] [ ] [ ] [ ] [ ] [ ] [ ] Center @Local</th>
+<th></th>
+<th>&gt; II &gt;I</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene Simulator</td>
+<td></td>
+<td></td>
+<td>E Hierarchy</td>
+<td></td>
+</tr>
+<tr>
+<td>mulator &quot; iPhone XS Max® Restart</td>
+<td></td>
+<td></td>
+<td>++</td>
+<td>® All</td>
+</tr>
+<tr>
+<td>Device Specifications</td>
+<td>Scale - @ 26 Fit to Screen Rotate ( ) Highlight Safe Area</td>
+<td></td>
+<td></td>
+<td>T &amp; CanvasSafeAreControl</td>
+</tr>
+<tr>
+<td>OS: IOS 12.3.1<br>Chipset: N/A<br>CPU: arm64e<br>GPU: Metal<br>Resolution: 1242 x 2688<br>Screen Settings</td>
+<td></td>
+<td></td>
+<td>Main Camera<br>Directional Light<br>v C Canvas<br>v ( FullScreen<br>BackgroundImage<br>TextT</td>
+<td></td>
+</tr>
+<tr>
+<td>2688 1242<br>Set<br>Resolution<br>Full Screen<br>V</td>
+<td></td>
+<td></td>
+<td>TextR<br>TextB<br>TextL</td>
+<td></td>
+</tr>
+<tr>
+<td>Auto Rotation V<br>Orientation Landscape Left</td>
+<td></td>
+<td></td>
+<td>T ( SafeArea</td>
+<td></td>
+</tr>
+<tr>
+<td>V Allowed Orientations<br>Portrait<br>V<br>Portrait Upside Domn<br>V<br>Landscape Left<br>V<br>Landscape Right<br>&gt;<br>Player Settings<br>Use Player Settings<br>&gt;<br>Resolution Scaling Mode Disabled<br>Auto Rotation<br>Default Orientation<br>4<br>Allowed Orientations<br>Auto Graphics API<br>V</td>
+<td>Top<br>it</td>
+<td>Right</td>
+<td>Highlight SafeArea<br>&gt; ( ButtonRed<br>In ButtonBlue<br>ButtonGreen<br>ButtonYellow<br>EventSystem</td>
+<td></td>
+</tr>
+<tr>
+<td>Graphics API<br>Photol</td>
+<td>-<br>Bottom</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Adjusting the UI to the device&#39;s physical screen</p>
+<p><span id="page-84-0"></span>A list of predefined phones and tablets comes with the package (in the <strong>com. unity.device-simulator/com.unity.device-simulator folder</strong>). Device definitions are stored in JSON files, and the list of devices regularly expands through package updates.</p>
+<p>Read <a href="https://blog.unity.com/technology/speed-up-mobile-iteration-with-the-new-device-simulator">&quot;Speed up mobile iteration with the Device Simulator&quot;</a> for more tips or watch this <a href="https://youtu.be/KFJcMG3mlDA?t=872">demo of the Device Simulator in action.</a></p>
+<h4 id="console-log-entry">Console Log Entry</h4>
+<p>By default, the Console Log Entry shows two lines. For improved readability, you can configure this to be more streamlined with one line (see image).</p>
+<p><img src="_page_84_Picture_4.jpeg" alt=""></p>
+<p>The Console Log Entry options</p>
+<p>Alternatively, you can also use more lines if you want longer entries.</p>
+<h4 id="-span-id-page-85-0-span-custom-compiler-status"><span id="page-85-0"></span>Custom Compiler status</h4>
+<p>When Unity compiles, the icon in the lower right corner is hard to see. Use this custom Editor script to call <a href="https://docs.unity3d.com/ScriptReference/EditorApplication-isCompiling.html?">EditorApplication.isCompiling.</a> This makes the Compiler status more visible in a floating window.</p>
+<p>Launch the MenuItem to initialize the window. Optionally, you can modify its appearance with a new GUIStyle to suit your preferences.</p>
+<pre><code><span class="hljs-keyword">using</span> UnityEditor;
+<span class="hljs-keyword">using</span> UnityEngine;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">CustomCompileWindow</span> : <span class="hljs-title">EditorWindow</span>
+{
+ [MenuItem(<span class="hljs-string">"Examples/CustomCompileWindow"</span>)]
+ <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Init</span>(<span class="hljs-params"></span>)
+ </span>{
+ EditorWindow window = GetWindowWithRect(<span class="hljs-keyword">typeof</span>(-
+CustomCompileWindow), <span class="hljs-keyword">new</span> Rect(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">200</span>, <span class="hljs-number">200</span>));
+ window.Show();
+ }
+ <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">OnGUI</span>(<span class="hljs-params"></span>)
+ </span>{
+ EditorGUILayout.LabelField(<span class="hljs-string">"Compiling:"</span>, Edito-
+rApplication.isCompiling ? <span class="hljs-string">"Yes"</span> : <span class="hljs-string">"No"</span>);
+ <span class="hljs-keyword">this</span>.Repaint();
+ }
+}
+</code></pre><h4 id="more-resources">More resources</h4>
+<ul>
+<li><em><a href="https://unity.com/resources/ultimate-guide-to-profiling-unity-games?isGated=false">Ultimate guide to profiling Unity games</a></em></li>
+<li><a href="https://unity.com/how-to/debugging-with-rosyln-analyzers">How to debug game code with Roslyn Analyzers</a></li>
+<li><a href="https://unity.com/how-to/automated-tests-unity-test-framework">How to run automated tests for your games with the Unity Test Framework</a></li>
+<li><a href="https://unity.com/how-to/debugging-with-microsoft-visual-studio-code">Speed up your debugging workflow with Microsoft Visual Studio Code</a></li>
+<li><a href="https://unity.com/how-to/debugging-with-microsoft-visual-studio-2022">How to debug your code with Microsoft Visual Studio 2022</a></li>
+<li><a href="https://unity.com/how-to/testing-and-quality-assurance-tips-unity-projects">Testing and quality assurance tips for Unity projects</a></li>
+</ul>
+<h3 id="-span-id-page-86-0-span-team-workflows"><span id="page-86-0"></span>Team workflows</h3>
+<p><a href="https://unity.com/products/unity-devops">Unity DevOps</a> consists of two core components: <a href="https://unity.com/solutions/version-control">Unity Version Control</a> and <a href="https://unity.com/solutions/ci-cd">Unity</a>  <a href="https://unity.com/solutions/ci-cd">Build Automation</a>.</p>
+<p>When you <a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/get-started-end-users">sign up for Unity DevOps,</a> you&#39;ll get access to both the Version Control and Build Automation components.</p>
+<p>You can pick which Unity DevOps component you use. For example, the Build Automation workflows can work with any version control including GitHub. Additionally, Unity Version Control remains compatible with any engine, slotting seamlessly into your existing tech stack.</p>
+<p>Unity DevOps is a consumption-based tool. This means that you&#39;ll only pay for what you use once you exceed the monthly free tier. You can learn more about pricing on the <a href="https://unity.com/products/unity-devops">Unity DevOps page</a>.</p>
+<p><span id="page-87-0"></span><img src="_page_87_Picture_0.jpeg" alt=""></p>
+<p>Unity helps your team collaborate.</p>
+<h4 id="unity-version-control">Unity Version Control</h4>
+<p><a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/unity-version-control">Unity Version Control</a> (Unity VCS) is a version control and source code management tool for game and real-time 3D development to improve team collaboration and scalability with any engine.</p>
+<p>There are two ways to use Unity Version Control. The Unity VCS web experience provides deeply integrated role-based workflows, code reviews, and user and user group management. You can read about setting up the web experience <a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/unity-version-control">here.</a></p>
+<p>You can also install the <a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/vcs-plugins/unityeditor-plugin/unity-version-control-package">Unity Version Control package</a> for the Editor. Follow the set up instructions in the <a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/vcs-plugins/unityeditor-plugin/get-started-with-vcs-package">package documentation</a>.</p>
+<h4 id="migrating-from-git">Migrating from Git</h4>
+<p>UVCS can push and pull changes directly to any remote Git server. This is because UVCS supports the https:// and git:// protocols for pushing and pulling changesets.</p>
+<p>This feature immediately turns UVCS into a distributed version control system (DVCS) that&#39;s fully compatible with Git. The advantage of this is that you can use UVCS or Git on your workstation and still participate in Git projects (GitHub, CodePlex, and many more).</p>
+<h4 id="-what-is-gitsync-"><strong>What is GitSync?</strong></h4>
+<p>GitSync is a native Windows DVCS connected to GitHub. So, it virtually turns UVCS into a full-fledged Windows client for Git.</p>
+<p><strong>Note:</strong> GitSync is not technically a new Git client. You would be using UVCS on the client-side but can push/pull to Git servers (using https or Git protocols).</p>
+<p>If you&#39;re a developer using GitHub (or Bitbucket, or maybe CodePlex), there are things you like, like using a cloud-based repository for your code and Windows to develop – and things you don&#39;t like, like being forced to use the CLI and lacking really awesome GUI tools.</p>
+<p>If you wish you had everything – Cloud repositories, the DVCS power, and tools for Windows – that&#39;s what you get with GitSync.</p>
+<p>Learn more about migrating from Git in the <a href="https://docs.unity.com/ugs/en-us/manual/devops/manual/migrating-from-git">UVCS manual</a>.</p>
+<h4 id="-using-git-as-an-external-vcs-"><strong>Using Git as an external VCS</strong></h4>
+<p>You can also use an external system, such as Git, including <a href="https://git-lfs.github.com">Git LFS (Large File</a>  <a href="https://git-lfs.github.com">Support)</a> for more efficient version control of your larger assets, like graphics and sound resources.</p>
+<p>Unity maintains a <a href="https://github.com/github/gitignore/blob/master/Unity.gitignore">.gitignore</a> file. This can help you decide what should and shouldn&#39;t go into the git repository and enforce those rules.</p>
+<p><img src="_page_88_Picture_8.jpeg" alt=""></p>
+<p>The GitHub for Unity extension</p>
+<p>If you&#39;re interested in learning how to set up version control for your team and Unity projects download the free, in-depth guide <em><a href="https://unity.com/resources/version-control-project-organization-best-practices-ebook?isGated=false">Version control and project</a>  <a href="https://unity.com/resources/version-control-project-organization-best-practices-ebook?isGated=false">organization best practices for game developers</a></em>.</p>
+<h4 id="-span-id-page-89-0-span-unity-build-automation"><span id="page-89-0"></span>Unity Build Automation</h4>
+<p>Unity DevOps Build Automation, formerly known as Cloud Build, is a turnkey continuous integration and deployment (CI/CD) solution that can execute and deploy builds in the cloud. It empowers you to build and release more often for higher-quality, more innovative releases.</p>
+<p>Build Automation can be connected to any source control repository in a matter of minutes and set up to execute builds manually or automatically once any change is committed to version control. Build Automation also supports multiple platforms including iOS, Android, Windows, and Unity Web, eliminating the need to maintain unique build infrastructure for every platform.</p>
+<h4 id="unity-accelerator">Unity Accelerator</h4>
+<p><a href="https://docs.unity3d.com/Manual/UnityAccelerator.html?">Unity Accelerator</a> removes waiting time by caching copies of your team&#39;s assets. This means that only one person needs to perform the actual import, and the results will automatically be cached to the Unity Accelerator. The next time a team member goes to import the same version of the asset, the Unity Editor first checks the cache before starting the import process on their local machine.</p>
+<p>A local administrator dashboard for the Accelerator enables you to configure the tool, see statistics like disk space usage or how much time you&#39;ve saved, and diagnose issues with logs.</p>
+<table>
+<thead>
+<tr>
+<th>ili</th>
+<th></th>
+<th>Disk Space Usage</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>英 Configuration<br>B Logs</td>
+<td>Logs</td>
+<td>ு Basic</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Collaborate</td>
+<td>Max Usage</td>
+<td>b3c-43fb-4fb3-b91e-860dba48625g</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>ws local machine<br>cal-apparatus-8420.accelerator-7.unity3dusercontent.com</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Custom</td>
+<td>2259255</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>The accelerator will utilize as much disk space as granted. Unchecked values<br>removes restrictions. &quot;Free&quot; values alongside usage values are useful when space is<br>shared with other resources/processes; the accelerator obeys free disk restrictions<br>even before reaching capacity.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Percent available to use Percent to remain free</td>
+<td>utes</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>43%<br>15%</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>Asset Import Pipe</td>
+<td>Bytes available to use Bytes to remain free</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Maintenance</td>
+<td>100.0 GB<br>10.7 GB</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Data Policy</td>
+<td>Cancel</td>
+<td>P<br>Save drclaw/Library/Unity/accelerator</td>
+</tr>
+</tbody>
+</table>
+<p>Unity Accelerator</p>
+<p><span id="page-90-0"></span>The Accelerator in Unity 2022 LTS provides corruption detection. Accelerator cached assets can be corrupted (modified bytes) on storage or during transmission. A hash of the content detects corrupt content; when content is seen as invalid, it&#39;s discarded and imports locally. You can configure this behavior using the Content Validation setting in the Project Settings window (Editor/Cache Server/Content Validation).</p>
+<p>See th<a href="https://docs.unity3d.com/2022.3/Documentation/Manual/UnityAccelerator.html?">e requirements and installation procedure</a> for more information about the Unity Accelerator.</p>
+<h4 id="unity-build-server">Unity Build Server</h4>
+<p>Consider enhancing your team&#39;s productivity by offloading the building process to network hardware using the <strong><a href="https://unity.com/products/unity-build-server">Unity Build Server</a></strong>. This will help your creative team build the project as often as needed, allowing them to iterate more autonomously.</p>
+<p>As your Unity project grows in size and complexity, generating a build consumes more and more time. If you&#39;re using your development workstations to build a project, you will lose productivity while your team waits for the build to complete.</p>
+<p>Unity Build Server runs Unity in batch mode, exclusively for building Unity projects. Team members can request builds on demand at their own pace. This reduces wait time for bug fixes and releasing new features for testing. Building on separate machines reduces each developer&#39;s downtime and allows everyone to iterate more quickly.</p>
+<p>See the <a href="https://unity.com/products/unity-build-server?">Unity Build Server</a> page for more information on how to access the service and pricing.</p>
+<p><img src="_page_90_Picture_7.jpeg" alt=""></p>
+<p>Setting up the Unity Build Server</p>
+<h3 id="-span-id-page-91-0-span-resources-for-all-unity-developers"><span id="page-91-0"></span>Resources for all Unity developers</h3>
+<p>You can find additional productivity tips, best practices, and news on the <a href="https://blog.unity.com/">Unity</a>  <a href="https://blog.unity.com/">Blog,</a> by searching the <strong>#unitytips</strong> hashtag, and on the <a href="https://forum.unity.com/">community forums</a> and <a href="https://learn.unity.com/">Unity Learn.</a></p>
+<p>The <a href="https://unity.com/developer-tools?">Unity Developer Tools</a> microsite makes it easy for you to find some of the best resources for developing with Unity, including documentation, the Knowledge Base, Issue Tracker, as well as our latest roadmap and release information.</p>
+<h3 id="-span-id-page-92-0-span-technical-support-success-plans-from-unity"><span id="page-92-0"></span>Technical Support Success Plans from Unity</h3>
+<p>Unity provides three tiers of success plans for professional developers and studios. Our success plans are designed to help you minimize technical and strategic obstacles during your game development. Our technical support team will help:</p>
+<ul>
+<li><strong>Prevent technical roadblocks</strong>: Get recommendations to anticipate, correct, and prevent blockers.</li>
+<li><strong>Streamline development</strong>: Work directly with Unity experts to help ensure your projects are optimized to achieve your goals.</li>
+<li><strong>Mitigate risk</strong>: Put guardrails in place that can help you avoid future issues, ensuring your project stays on track and on budget.</li>
+</ul>
+<p>Learn more about <a href="https://unity.com/success-plans">Unity Success plans</a> or <a href="https://create.unity.com/contact-unity-expert">contact us</a> to get more information about what we can offer.</p>
+<p><img src="_page_93_Picture_0.jpeg" alt=""></p>
+<p><a href="https://unity.com/">unity.com</a></p>
+</body></html>
